@@ -57,14 +57,13 @@ const HomePage = () => {
   return (
     <S.Home>
       <S.Names>Vanessa Gomez y Robert Garcia</S.Names>
-      <S.Invitation>Te Invitamos a nuestra Boda</S.Invitation>
+      <S.Invitation>
+        Están cordialmente invitados a la celebración de nuestra boda
+      </S.Invitation>
       <S.Cancion controls>
         <source src={cancion} type="audio/mpeg" />
         Your browser does not support the audio element.
       </S.Cancion>
-      <S.Message style={{color: '#000', marginBottom: '1rem'}}>
-        Están cordialmente invitados a la celebración de nuestra boda
-      </S.Message>
       <S.Message>
         Ha sido un largo camino, durante el que hemos crecido y aprendido
         juntos; hemos compartido alegrías y tristezas, abundancia y escasez.. De

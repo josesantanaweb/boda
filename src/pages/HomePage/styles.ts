@@ -16,7 +16,7 @@ export const Names = styled.h3`
   font-family: "Great Vibes", cursive;
   color: #000000;
   text-align: center;
-  margin: 4rem 0 0;
+  margin: 4rem 0 4rem;
   font-weight: 400;
 `;
 
@@ -27,7 +27,8 @@ export const Invitation = styled.h3`
   color: #eabe3f;
   text-transform: uppercase;
   text-align: center;
-  margin: 2rem 0 4rem;
+  margin: 2rem 0 3rem;
+  line-height: 1.5;
   font-weight: 400;
 `;
 
