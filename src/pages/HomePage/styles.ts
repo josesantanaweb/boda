@@ -313,7 +313,7 @@ export const AfterImg = styled.img`
 
 export const AfterInfo = styled.div`
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   width: 300px;
   z-index: 100;

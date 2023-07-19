@@ -36,7 +36,7 @@ const HomePage = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleWhatsappRoberth = () => {
+  const handleWhatsappRobert = () => {
     if (typeof window !== "undefined") {
       window.open(
         `https://api.whatsapp.com/send/?phone=584243804740&text=Hola%20soy%20${name}%20y%20${confirmation}%20asistire%20a%20la%20boda!&type=phone_number&app_absent=0`,
@@ -149,7 +149,6 @@ const HomePage = () => {
       <S.After>
         <S.AfterImg src={after} alt="after" />
         <S.AfterInfo>
-          <S.AfterTitle>AFTER</S.AfterTitle>
           <S.AfterDate>
             Domingo 3 de septiembre pool Party. Lugar Salsa y Cebada
           </S.AfterDate>
@@ -199,9 +198,9 @@ const HomePage = () => {
           <option value="si">Si</option>
           <option value="no">No</option>
         </S.FormSelect>
-        <S.FormButton onClick={handleWhatsappRoberth}>
+        <S.FormButton onClick={handleWhatsappRobert}>
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
-          CONTACTO ROBERTH
+          CONTACTO ROBERT
         </S.FormButton>
         <S.FormButton onClick={handleWhatsappVanessa}>
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
