@@ -72,7 +72,6 @@ const HomePage = () => {
       </S.Message>
       <S.Names style={{ marginBottom: "2rem" }}>Ya Falta Poco</S.Names>
       <S.Floral src={floral} alt="floral" />
-      <S.Reservation>RESERVAR</S.Reservation>
       <S.Date>2 de Septiembre del 2023 Valencia - San Diego</S.Date>
       <S.DaysLeftTitle>Falta:</S.DaysLeftTitle>
       <S.DaysLeft>
