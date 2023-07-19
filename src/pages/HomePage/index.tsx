@@ -36,10 +36,19 @@ const HomePage = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleWhatsapp = () => {
+  const handleWhatsappRoberth = () => {
     if (typeof window !== "undefined") {
       window.open(
-        `https://api.whatsapp.com/send/?phone=584126475918&text=Hola%20soy%20${name}%20y%20${confirmation}%20asistire%20a%20la%20boda!&type=phone_number&app_absent=0`,
+        `https://api.whatsapp.com/send/?phone=584243804740&text=Hola%20soy%20${name}%20y%20${confirmation}%20asistire%20a%20la%20boda!&type=phone_number&app_absent=0`,
+        "_blank"
+      );
+    }
+  };
+
+  const handleWhatsappVanessa = () => {
+    if (typeof window !== "undefined") {
+      window.open(
+        `https://api.whatsapp.com/send/?phone=584243286365&text=Hola%20soy%20${name}%20y%20${confirmation}%20asistire%20a%20la%20boda!&type=phone_number&app_absent=0`,
         "_blank"
       );
     }
@@ -53,12 +62,16 @@ const HomePage = () => {
         <source src={cancion} type="audio/mpeg" />
         Your browser does not support the audio element.
       </S.Cancion>
+      <S.Message style={{color: '#000', marginBottom: '1rem'}}>
+        Están cordialmente invitados a la celebración de nuestra boda
+      </S.Message>
       <S.Message>
         Ha sido un largo camino, durante el que hemos crecido y aprendido
-        juntos; hemos compartido alegrias y tristezas, abundancia y escacez.. de
+        juntos; hemos compartido alegrías y tristezas, abundancia y escasez.. De
         eso se trata nuestro amor, una magia que el tiempo y la distancia no
         pudieron borrar.
       </S.Message>
+      <S.Names style={{ marginBottom: "2rem" }}>Ya Falta Poco</S.Names>
       <S.Floral src={floral} alt="floral" />
       <S.Reservation>RESERVAR</S.Reservation>
       <S.Date>2 de Septiembre del 2023 Valencia - San Diego</S.Date>
@@ -188,9 +201,13 @@ const HomePage = () => {
           <option value="si">Si</option>
           <option value="no">No</option>
         </S.FormSelect>
-        <S.FormButton onClick={handleWhatsapp}>
+        <S.FormButton onClick={handleWhatsappRoberth}>
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
-          ENVIAR POR WHATSAPP
+          CONTACTO ROBERTH
+        </S.FormButton>
+        <S.FormButton onClick={handleWhatsappVanessa}>
+          <S.FormIconWS src={whatsapp} alt="whatsapp" />
+          CONTACTO VANESSA
         </S.FormButton>
       </S.Form>
     </S.Home>

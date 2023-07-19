@@ -14,7 +14,7 @@ export const Names = styled.h3`
   margin: 0;
   font-size: 1.8rem;
   font-family: "Great Vibes", cursive;
-  color: #eabe3f;
+  color: #000000;
   text-align: center;
   margin: 4rem 0 0;
   font-weight: 400;
@@ -45,7 +45,7 @@ export const Message = styled.p`
   text-align: center;
   font-style: italic;
   font-family: "Nunito", sans-serif;
-  margin: 4rem;
+  margin: 2rem 4rem 4rem;
   line-height: 1.5;
 `;
 
