@@ -56,7 +56,7 @@ const HomePage = () => {
 
   return (
     <S.Home>
-      <S.Names>Vanessa Gomez y Robert Garcia</S.Names>
+      <S.Names>Vanessa y Robert</S.Names>
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
       </S.Invitation>
@@ -155,11 +155,11 @@ const HomePage = () => {
         </S.AfterInfo>
       </S.After>
       <S.Gift>
-        <S.GiftMessage>
-          Su presencia es nuestro mejor regalo, pero si desean hacernos un
-          obsequio ponemos a su disposición nuestras sugerencias.
-        </S.GiftMessage>
         <S.GiftInfo>
+          <S.GiftMessage>
+            Su presencia es nuestro mejor regalo, pero si desean hacernos un
+            obsequio ponemos a su disposición nuestras sugerencias.
+          </S.GiftMessage>
           <S.GiftTitle>MESA DE REGALOS</S.GiftTitle>
           <S.GiftSite>Salon Salsa & Cebada</S.GiftSite>
           <S.GiftButton

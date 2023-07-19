@@ -12,7 +12,7 @@ export const Roses = styled.img`
 
 export const Names = styled.h3`
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-family: "Great Vibes", cursive;
   color: #000000;
   text-align: center;
@@ -348,8 +348,9 @@ export const GiftMessage = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #e9babc;
   text-align: center;
+  margin-bottom: 1rem;
   width: 250px;
   line-height: 1.5;
   font-style: italic;
