@@ -394,9 +394,9 @@ export const GiftButton = styled.a`
 
 export const GiftRoses = styled.img`
   position: absolute;
-  right: -180px;
+  right: -172px;
   top: 170px;
-  transform: rotate(269deg);
+  transform: rotate(91deg);
 `;
 
 export const Outfit = styled.div`
