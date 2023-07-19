@@ -1,6 +1,9 @@
 import styled from "styled-components";
+import fondo from "../../assets/images/fondo.jpg";
 
-export const Home = styled.main``;
+export const Home = styled.main`
+  background-image: url(${fondo});
+`;
 
 export const Roses = styled.img`
   width: 300px;
@@ -12,11 +15,11 @@ export const Roses = styled.img`
 
 export const Names = styled.h3`
   margin: 0;
-  font-size: 2.5rem;
-  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  font-family: "Major Mono Display";
   color: #000000;
   text-align: center;
-  margin: 4rem 0 4rem;
+  margin: 2rem 0 4rem;
   font-weight: 400;
 `;
 
@@ -42,7 +45,7 @@ export const Message = styled.p`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Neuton", serif;
-  color: #E9BABC;
+  color: #EFD6D2;
   text-align: center;
   font-style: italic;
   font-family: "Nunito", sans-serif;
@@ -202,8 +205,8 @@ export const InformationButton = styled.a`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #E9BABC;
-  border: 1px solid #E9BABC;
+  color: #EFD6D2;
+  border: 1px solid #EFD6D2;
   border-radius: 35px;
   text-align: center;
   font-weight: 400;
@@ -348,7 +351,7 @@ export const GiftMessage = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #e9babc;
+  color: #EFD6D2;
   text-align: center;
   margin-bottom: 1rem;
   width: 250px;
@@ -357,7 +360,7 @@ export const GiftMessage = styled.p`
 `;
 
 export const GiftInfo = styled.div`
-  border: 1px solid #E9BABC;
+  border: 1px solid #EFD6D2;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -366,13 +369,11 @@ export const GiftInfo = styled.div`
 
 export const GiftTitle = styled.h4`
   margin: 0;
-  font-size: 1rem;
-  font-family: "Neuton", serif;
-  color: #E9BABC;
-  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Major Mono Display";
+  color: #efd6d2;
   text-align: center;
   font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 0.3rem;
   margin-bottom: 1rem;
 `;
@@ -381,7 +382,7 @@ export const GiftSite = styled.p`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #E9BABC;
+  color: #EFD6D2;
   text-align: center;
   font-weight: 400;
   line-height: 1.5;
@@ -392,8 +393,8 @@ export const GiftButton = styled.a`
   margin: 0px auto;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #E9BABC;
-  border: 1px solid #E9BABC;
+  color: #EFD6D2;
+  border: 1px solid #EFD6D2;
   border-radius: 35px;
   text-align: center;
   font-weight: 400;
@@ -428,13 +429,11 @@ export const OutfitImg = styled.img`
 
 export const OutfitTitle = styled.h4`
   margin: 0 auto 1rem;
-  font-size: 1rem;
-  font-family: "Neuton", serif;
+  font-size: 2rem;
+  font-family: "Major Mono Display";
   color: #000000;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 0.3rem;
   width: 200px;
 `;
@@ -457,10 +456,9 @@ export const Form = styled.div`
 
 export const FormTitle = styled.h4`
   margin: 0 auto 2.5rem;
-  font-size: 1.2rem;
-  font-family: "Neuton", serif;
+  font-size: 2.4rem;
+  font-family: "Major Mono Display";
   color: #eabe3f;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 400;
   line-height: 1.5;
@@ -505,6 +503,7 @@ export const FormSelect = styled.select`
   height: 40px;
   border-radius: 4px;
   border: none;
+  color: #000000;
   outline: none;
   font-family: "Nunito", sans-serif;
   width: 100%;
@@ -518,7 +517,7 @@ export const FormSelect = styled.select`
 `;
 
 export const FormButton = styled.a`
-  background-color: #E9BABC;
+  background-color: #f7a49e;
   color: #ffffff;
   height: 40px;
   font-size: 0.875rem;

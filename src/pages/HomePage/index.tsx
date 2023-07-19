@@ -4,7 +4,7 @@ import floral from "../../assets/images/floral.png"
 import photo from "../../assets/images/photo.png"
 import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
-import after from "../../assets/images/after.png"
+import after from "../../assets/images/after.jpeg"
 import traje from "../../assets/images/traje.png"
 import whatsapp from "../../assets/images/whatsapp.png";
 import copas from "../../assets/images/copas.png";
@@ -130,15 +130,15 @@ const HomePage = () => {
         <S.TimelineItems>
           <S.TimelineItem>
             <S.TimelineTitle>Civil.</S.TimelineTitle>
-            <S.TimelineHour>5:00</S.TimelineHour>
+            <S.TimelineHour>5:00pm</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
             <S.TimelineTitle>Eclesiástica</S.TimelineTitle>
-            <S.TimelineHour>7:00</S.TimelineHour>
+            <S.TimelineHour>7:00pm</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
             <S.TimelineTitle>Recepción</S.TimelineTitle>
-            <S.TimelineHour>9:00</S.TimelineHour>
+            <S.TimelineHour>9:00pm</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
             <S.TimelineTitle>Pool P.</S.TimelineTitle>
@@ -160,7 +160,7 @@ const HomePage = () => {
             Su presencia es nuestro mejor regalo, pero si desean hacernos un
             obsequio ponemos a su disposición nuestras sugerencias.
           </S.GiftMessage>
-          <S.GiftTitle>MESA DE REGALOS</S.GiftTitle>
+          <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
           <S.GiftSite>Salon Salsa & Cebada</S.GiftSite>
           <S.GiftButton
             target="_blank"
@@ -172,7 +172,7 @@ const HomePage = () => {
       </S.Gift>
       <S.Outfit>
         <S.OutfitImg src={traje} alt="traje" />
-        <S.OutfitTitle>SUGERENCIA DE VESTIMENTA</S.OutfitTitle>
+        <S.OutfitTitle>Sugerencia de Vestimenta</S.OutfitTitle>
         <S.OutfitText>Traje formal. (Se reserva el color Rosa)</S.OutfitText>
       </S.Outfit>
       <S.Outfit>
@@ -183,7 +183,7 @@ const HomePage = () => {
         </S.OutfitText>
       </S.Outfit>
       <S.Form>
-        <S.FormTitle>CONFIRMA TU ASISTENCIA</S.FormTitle>
+        <S.FormTitle>Confirma tu Asistencia</S.FormTitle>
         <S.FormInput
           placeholder="Nombre"
           onChange={(e) => setName(e.target.value)}
