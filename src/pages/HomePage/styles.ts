@@ -12,14 +12,25 @@ export const Roses = styled.img`
 
 export const Names = styled.h3`
   margin: 0;
-  font-size: 1.2rem;
-  font-family: "Neuton", serif;
-  color: #EABE3F;
-  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: "Great Vibes", cursive;
+  color: #eabe3f;
   text-align: center;
-  margin: 4rem 0;
+  margin: 4rem 0 0;
   font-weight: 400;
 `;
+
+export const Invitation = styled.h3`
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Neuton", serif;
+  color: #eabe3f;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem 0 4rem;
+  font-weight: 400;
+`;
+
 
 export const Cancion = styled.audio`
   display: flex;
@@ -301,8 +312,9 @@ export const AfterImg = styled.img`
 
 export const AfterInfo = styled.div`
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
+  width: 300px;
   z-index: 100;
   transform: translate(-50%);
 `;
@@ -404,6 +416,7 @@ export const Outfit = styled.div`
   background-color: rgba(252, 117, 133, 0.1);
   width: 100%;
   padding: 1rem 0;
+  margin-bottom: 1rem;
 `;
 
 export const OutfitImg = styled.img`

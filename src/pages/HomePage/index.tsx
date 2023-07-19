@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import * as S from "./styles";
-import roses from "../../assets/images/roses.png"
 import floral from "../../assets/images/floral.png"
 import photo from "../../assets/images/photo.png"
 import users from "../../assets/images/users.png"
@@ -8,7 +7,6 @@ import love from "../../assets/images/love.png"
 import after from "../../assets/images/after.png"
 import traje from "../../assets/images/traje.png"
 import whatsapp from "../../assets/images/whatsapp.png";
-import roses2 from "../../assets/images/roses-2.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
@@ -49,8 +47,8 @@ const HomePage = () => {
 
   return (
     <S.Home>
-      <S.Roses src={roses} alt="roses" />
-      <S.Names>VANESSA GOMEZ & ROBERT GARCIA</S.Names>
+      <S.Names>Vanessa Gomez y Robert Garcia</S.Names>
+      <S.Invitation>Te Invitamos a nuestra Boda</S.Invitation>
       <S.Cancion controls>
         <source src={cancion} type="audio/mpeg" />
         Your browser does not support the audio element.
@@ -91,18 +89,6 @@ const HomePage = () => {
         <S.Photo src={photo} alt="photo" />
       </S.Photos>
       <S.Information>
-        <S.InformationRow>
-          <S.InformationItem>
-            <S.InformationLogo src={users} alt="users" />
-            <S.InformationTitle>RECEPCIÓNDE INVITADOS</S.InformationTitle>
-            <S.InformationHour>4: 00pm</S.InformationHour>
-          </S.InformationItem>
-          <S.InformationItem>
-            <S.InformationLogo src={love} alt="love" />
-            <S.InformationTitle>CEREMONIA CIVIL</S.InformationTitle>
-            <S.InformationHour>5: 00pm</S.InformationHour>
-          </S.InformationItem>
-        </S.InformationRow>
         <S.InformationSalon>Salon Salsa & Cebada</S.InformationSalon>
         <S.InformationSite>
           Las Morochas 1 calle los jazmines # 20 -10 C, San Diego
@@ -113,7 +99,6 @@ const HomePage = () => {
         >
           Ver Mapa
         </S.InformationButton>
-        <S.InformationRoses src={roses} alt="roses" />
       </S.Information>
       <S.Timeline>
         <S.TimelineIcons>
@@ -133,20 +118,20 @@ const HomePage = () => {
         <S.TimelineLine />
         <S.TimelineItems>
           <S.TimelineItem>
-            <S.TimelineTitle>RECEPCIÓN</S.TimelineTitle>
-            <S.TimelineHour>4:00</S.TimelineHour>
-          </S.TimelineItem>
-          <S.TimelineItem>
-            <S.TimelineTitle>CIVIL</S.TimelineTitle>
+            <S.TimelineTitle>Civil.</S.TimelineTitle>
             <S.TimelineHour>5:00</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
-            <S.TimelineTitle>IGLESIA</S.TimelineTitle>
+            <S.TimelineTitle>Eclesiástica</S.TimelineTitle>
             <S.TimelineHour>7:00</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
-            <S.TimelineTitle>FIESTA</S.TimelineTitle>
+            <S.TimelineTitle>Recepción</S.TimelineTitle>
             <S.TimelineHour>9:00</S.TimelineHour>
+          </S.TimelineItem>
+          <S.TimelineItem>
+            <S.TimelineTitle>Pool P.</S.TimelineTitle>
+            <S.TimelineHour>3/09/23</S.TimelineHour>
           </S.TimelineItem>
         </S.TimelineItems>
       </S.Timeline>
@@ -154,7 +139,9 @@ const HomePage = () => {
         <S.AfterImg src={after} alt="after" />
         <S.AfterInfo>
           <S.AfterTitle>AFTER</S.AfterTitle>
-          <S.AfterDate>03 de Septiembre 2023</S.AfterDate>
+          <S.AfterDate>
+            Domingo 3 de septiembre pool Party. Lugar Salsa y Cebada
+          </S.AfterDate>
         </S.AfterInfo>
       </S.After>
       <S.Gift>
@@ -172,14 +159,17 @@ const HomePage = () => {
             Ver Mapa
           </S.GiftButton>
         </S.GiftInfo>
-        <S.GiftRoses src={roses} alt="roses" />
       </S.Gift>
       <S.Outfit>
         <S.OutfitImg src={traje} alt="traje" />
         <S.OutfitTitle>SUGERENCIA DE VESTIMENTA</S.OutfitTitle>
+        <S.OutfitText>Traje formal. (Se reserva el color Rosa)</S.OutfitText>
+      </S.Outfit>
+      <S.Outfit>
+        <S.OutfitImg src={traje} alt="traje" />
         <S.OutfitText>
-          Formal (reservarse el color rosado de manera obligatoria ) Niños:
-          dulce sueños (obligatorio)
+          Es una noche mágica para compartir entre adultos. (Niños dulces
+          sueños)
         </S.OutfitText>
       </S.Outfit>
       <S.Form>
@@ -202,7 +192,6 @@ const HomePage = () => {
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
           ENVIAR POR WHATSAPP
         </S.FormButton>
-        <S.FormRoses src={roses2} alt="roses2" />
       </S.Form>
     </S.Home>
   );
