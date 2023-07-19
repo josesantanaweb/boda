@@ -6,6 +6,7 @@ import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
 import after from "../../assets/images/after.jpeg"
 import traje from "../../assets/images/traje.png"
+import bebe from "../../assets/images/bebe.png"
 import whatsapp from "../../assets/images/whatsapp.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
@@ -176,7 +177,7 @@ const HomePage = () => {
         <S.OutfitText>Traje formal. (Se reserva el color Rosa)</S.OutfitText>
       </S.Outfit>
       <S.Outfit>
-        <S.OutfitImg src={traje} alt="traje" />
+        <S.OutfitImg src={bebe} alt="bebe" />
         <S.OutfitText>
           Es una noche mágica para compartir entre adultos. (Niños dulces
           sueños)
