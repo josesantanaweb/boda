@@ -4,7 +4,7 @@ import floral from "../../assets/images/floral.png"
 import photo from "../../assets/images/photo.png"
 import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
-import after from "../../assets/images/after.jpg"
+import after from "../../assets/images/after.png"
 import traje from "../../assets/images/traje.png"
 import bebe from "../../assets/images/bebe.png"
 import whatsapp from "../../assets/images/whatsapp.png";

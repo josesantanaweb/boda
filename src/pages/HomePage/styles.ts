@@ -25,14 +25,16 @@ export const Names = styled.h3`
 
 export const Invitation = styled.h3`
   margin: 0;
-  font-size: 1rem;
-  font-family: "Neuton", serif;
-  color: #b39a96;
-  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  color: #c78f78;
+  font-style: italic;
   text-align: center;
-  margin: 2rem 0 3rem;
+  margin: 2.5rem auto 3rem;
   line-height: 1.5;
   font-weight: 400;
+  width: 250px;
+  padding-top: 10px;
 `;
 
 
@@ -44,7 +46,6 @@ export const Cancion = styled.audio`
 export const Message = styled.p`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Neuton", serif;
   color: #C78F78;
   text-align: center;
   font-style: italic;
@@ -132,8 +133,9 @@ export const Information = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
   position: relative;
+  background-color: #ffffff;
 `;
 
 export const InformationRow = styled.div`
@@ -199,6 +201,7 @@ export const InformationSite = styled.p`
   line-height: 1.5;
   font-style: italic;
   margin-bottom: 2rem;
+  padding-top: 10px;
 `;
 
 export const InformationButton = styled.a`
@@ -237,7 +240,7 @@ export const TimelineLine = styled.span`
   width: 100%;
   background-color: #ffffff;
   display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 `;
 
 export const TimelineIcons = styled.div`
@@ -339,6 +342,7 @@ export const AfterDate = styled.p`
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
   color: #FFFFFF;
+  line-height: 1.5;
   text-align: center;
 `;
 
