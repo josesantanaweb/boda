@@ -4,7 +4,7 @@ import floral from "../../assets/images/floral.png"
 import photo from "../../assets/images/photo.png"
 import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
-import after from "../../assets/images/after.jpeg"
+import after from "../../assets/images/after.jpg"
 import traje from "../../assets/images/traje.png"
 import bebe from "../../assets/images/bebe.png"
 import whatsapp from "../../assets/images/whatsapp.png";
@@ -151,7 +151,7 @@ const HomePage = () => {
         <S.AfterImg src={after} alt="after" />
         <S.AfterInfo>
           <S.AfterDate>
-            Domingo 3 de septiembre pool Party. Lugar Salsa y Cebada
+            Domingo 3 De septiembre Pool Party. Lugar Salsa y Cebada
           </S.AfterDate>
         </S.AfterInfo>
       </S.After>
@@ -174,13 +174,13 @@ const HomePage = () => {
       <S.Outfit>
         <S.OutfitImg src={traje} alt="traje" />
         <S.OutfitTitle>Sugerencia de Vestimenta</S.OutfitTitle>
-        <S.OutfitText>Traje formal. (Se reserva el color Rosa)</S.OutfitText>
+        <S.OutfitText>TRAJE FORMAL. (Se reserva el color Rosa)</S.OutfitText>
       </S.Outfit>
       <S.Outfit>
         <S.OutfitImg src={bebe} alt="bebe" />
         <S.OutfitText>
-          Es una noche mágica para compartir entre adultos. (Niños dulces
-          sueños)
+          Es una noche mágica para compartir entre adultos. Agradecemos tu
+          comprensión y esperamos celebrar juntos (Niños dulces sueños)
         </S.OutfitText>
       </S.Outfit>
       <S.Form>

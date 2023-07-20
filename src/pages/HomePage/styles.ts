@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fondo from "../../assets/images/fondo.jpg";
 
 export const Home = styled.main`
-  /* background-image: url(${fondo}); */
+  background-image: url(${fondo});
 `;
 
 export const Roses = styled.img`
@@ -96,7 +96,7 @@ export const DaysLeftTitle = styled.h4`
 
 export const DaysLeft = styled.div`
   margin: 0;
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   margin: 3rem 4rem;
   border-radius: 10px;
   padding: 1rem;
@@ -205,8 +205,9 @@ export const InformationButton = styled.a`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #C78F78;
-  border: 1px solid #C78F78;
+  color: #c78f78;
+  border: 1px solid #c78f78;
+  background-color: #ffffff;
   border-radius: 35px;
   text-align: center;
   font-weight: 400;
@@ -227,7 +228,7 @@ export const InformationRoses = styled.img`
 `;
 
 export const Timeline = styled.div`
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   padding: 2rem;
 `;
 
@@ -360,11 +361,12 @@ export const GiftMessage = styled.p`
 `;
 
 export const GiftInfo = styled.div`
-  border: 1px solid #C78F78;
+  border: 1px solid #c78f78;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
   padding: 2rem;
+  background-color: #ffffff;
 `;
 
 export const GiftTitle = styled.h4`
@@ -392,6 +394,7 @@ export const GiftSite = styled.p`
 export const GiftButton = styled.a`
   margin: 0px auto;
   font-size: 0.875rem;
+  background-color: #ffffff;
   font-family: "Nunito", sans-serif;
   color: #C78F78;
   border: 1px solid #C78F78;
@@ -416,7 +419,7 @@ export const GiftRoses = styled.img`
 
 export const Outfit = styled.div`
   text-align: center;
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
@@ -458,14 +461,14 @@ export const FormTitle = styled.h4`
   margin: 0 auto 2.5rem;
   font-size: 2.4rem;
   font-family: "Major Mono Display";
-  color: #b39a96;
+  color: #000000;
   text-align: center;
   font-weight: 400;
   line-height: 1.5;
 `;
 
 export const FormInput = styled.input`
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   height: 40px;
   border-radius: 4px;
   border: none;
@@ -482,7 +485,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormTextarea = styled.textarea`
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   height: 90px;
   border-radius: 4px;
   border: none;
@@ -499,7 +502,7 @@ export const FormTextarea = styled.textarea`
 `;
 
 export const FormSelect = styled.select`
-  background-color: rgba(252, 117, 133, 0.1);
+  background-color: rgba(252, 117, 133, 0.3);
   height: 40px;
   border-radius: 4px;
   border: none;

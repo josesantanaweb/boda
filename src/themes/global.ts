@@ -58,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-size:  1rem;
     color: #000000;
-    background-color: #F1EAE4;
+    background-color: #FFFFFF;
   }
 `;
 
