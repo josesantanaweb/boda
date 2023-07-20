@@ -528,9 +528,9 @@ export const Form = styled.div`
 
 export const FormRose = styled.img`
   position: absolute;
-  left: 0;
+  left: 0px;
   width: 50%;
-  top: 170px;
+  bottom: -60px;
   transform: rotate(91deg);
 `;
 
@@ -622,14 +622,6 @@ export const FormButton = styled.a`
 export const FormIconWS = styled.img`
   margin-right: 0.5rem;
   margin-bottom: 0.2rem;
-`;
-
-export const FormRoses = styled.img`
-  position: absolute;
-  left: 0px;
-  width: 50%;
-  bottom: -90px;
-  transform: rotate(91deg);
 `;
 
 export const Modal = styled.div`
