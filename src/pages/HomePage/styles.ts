@@ -3,6 +3,14 @@ import fondo from "../../assets/images/fondo.jpg";
 
 export const Home = styled.main`
   background-image: url(${fondo});
+  position: relative;
+`;
+
+export const Plant = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -90px;
+  left: 0;
 `;
 
 export const Roses = styled.img`
@@ -36,7 +44,7 @@ export const Invitation = styled.h3`
   line-height: 1.5;
   font-weight: 400;
   width: 250px;
-  padding-top: 10px;
+  padding-top: 40px;
 `;
 
 

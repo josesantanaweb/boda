@@ -12,6 +12,7 @@ import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
 import regalo from "../../assets/images/regalo.png";
+import plant from "../../assets/images/plant.png";
 import close from "../../assets/images/close.svg";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
@@ -61,6 +62,7 @@ const HomePage = () => {
 
   return (
     <S.Home>
+      <S.Plant src={plant} alt="plant" />
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
       </S.Invitation>
@@ -75,7 +77,16 @@ const HomePage = () => {
         eso se trata nuestro amor, una magia que el tiempo y la distancia no
         pudieron borrar.
       </S.Message>
-      <S.Names style={{ marginBottom: "2rem", fontSize: '3.5rem' }}>Ya Falta Poco</S.Names>
+      <S.Names
+        style={{
+          marginBottom: "2rem",
+          fontSize: "3.5rem",
+          color: "#797777",
+          width: 290,
+        }}
+      >
+        Ya Falta Poco
+      </S.Names>
       <S.Floral src={floral} alt="floral" />
       <S.Date>2 de Septiembre del 2023 Valencia - San Diego</S.Date>
       <S.DaysLeftTitle>Falta:</S.DaysLeftTitle>
@@ -195,7 +206,11 @@ const HomePage = () => {
           <S.Modal>
             <S.ModalCard>
               <S.ModalImg src={regalo} alt="regalo" />
-              <S.ModalClose src={close} alt="close" onClick={() => setOpenModal(false)}/>
+              <S.ModalClose
+                src={close}
+                alt="close"
+                onClick={() => setOpenModal(false)}
+              />
             </S.ModalCard>
           </S.Modal>
         )}
