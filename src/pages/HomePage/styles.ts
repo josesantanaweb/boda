@@ -38,7 +38,7 @@ export const Names = styled.h3`
 
 export const Invitation = styled.h3`
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: "Custom", sans-serif;
   color: #797777;
   font-style: italic;
@@ -58,7 +58,7 @@ export const Cancion = styled.audio`
 
 export const Message = styled.p`
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   color: #797777;
   text-align: center;
   font-style: italic;
@@ -93,7 +93,7 @@ export const Reservation = styled.h3`
 
 export const Date = styled.p`
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -104,7 +104,7 @@ export const Date = styled.p`
 
 export const DaysLeftTitle = styled.h4`
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -129,7 +129,7 @@ export const DaysLeftRow = styled.div`
 
 export const DaysNumber = styled.p`
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -200,7 +200,7 @@ export const InformationHour = styled.h4`
 
 export const InformationSalon = styled.h6`
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -210,7 +210,7 @@ export const InformationSalon = styled.h6`
 
 export const InformationSite = styled.p`
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -224,7 +224,7 @@ export const InformationSite = styled.p`
 
 export const InformationButton = styled.a`
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Custom";
   color: #797777;
   border: 1px solid #797777;
@@ -305,7 +305,7 @@ export const TimelineItem = styled.div`
 
 export const TimelineTitle = styled.h4`
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -315,7 +315,7 @@ export const TimelineTitle = styled.h4`
 
 export const TimelineHour = styled.p`
   margin: 0;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -338,7 +338,7 @@ export const AfterImg = styled.img`
 
 export const AfterInfo = styled.div`
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   width: 300px;
   z-index: 100;
@@ -347,7 +347,7 @@ export const AfterInfo = styled.div`
 
 export const AfterTitle = styled.h5`
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Custom";
   color: #FFFFFF;
   text-align: center;
@@ -357,7 +357,7 @@ export const AfterTitle = styled.h5`
 
 export const AfterDate = styled.p`
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #FFFFFF;
   line-height: 1.5;
@@ -372,7 +372,7 @@ export const Gift = styled.div`
 
 export const GiftMessage = styled.p`
   margin: 0 auto;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -393,7 +393,7 @@ export const GiftInfo = styled.div`
 
 export const GiftTitle = styled.h4`
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Major Mono Display";
   color: #797777;
   text-align: center;
@@ -404,7 +404,7 @@ export const GiftTitle = styled.h4`
 
 export const GiftSite = styled.p`
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -446,7 +446,7 @@ export const GuestsIcon = styled.img`
 `;
 
 export const GuestsTitle = styled.h5`
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -512,7 +512,7 @@ export const OutfitTitle = styled.h4`
 
 export const OutfitText = styled.p`
   margin: 0 auto;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
