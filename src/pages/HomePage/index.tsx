@@ -11,6 +11,8 @@ import whatsapp from "../../assets/images/whatsapp.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
+import regalo from "../../assets/images/regalo.png";
+import close from "../../assets/images/close.svg";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
 const HomePage = () => {
@@ -20,6 +22,7 @@ const HomePage = () => {
   const [seconds, setSeconds] = useState(0);
   const [name, setName] = useState('Desconocido');
   const [confirmation, setConfirmation] = useState('si');
+  const [openModal, setOpenModal] = useState(false);
 
   const deadline = "September, 02, 2023";
 
@@ -162,9 +165,9 @@ const HomePage = () => {
         <S.GuestsTitle>HEMOS RESERVADO</S.GuestsTitle>
         <S.GuestsItems>
           <S.GuestsRow>
-            <span></span>
-            <span></span>
             <span style={{ backgroundColor: "#e9babc" }}></span>
+            <span></span>
+            <span></span>
             <span></span>
           </S.GuestsRow>
           <S.GuestsRow>
@@ -184,13 +187,18 @@ const HomePage = () => {
           </S.GiftMessage>
           <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
           <S.GiftSite>Salon Salsa & Cebada</S.GiftSite>
-          <S.GiftButton
-            target="_blank"
-            href="https://www.google.com/maps/place/10%C2%B015'08.2%22N+67%C2%B056'34.5%22W/@10.2522764,-67.9450979,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.2522764!4d-67.9429092?hl=es&entry=ttu"
-          >
-            Ver Mapa
+          <S.GiftButton onClick={() => setOpenModal(true)}>
+            Ver Sugerencias
           </S.GiftButton>
         </S.GiftInfo>
+        {openModal && (
+          <S.Modal>
+            <S.ModalCard>
+              <S.ModalImg src={regalo} alt="regalo" />
+              <S.ModalClose src={close} alt="close" onClick={() => setOpenModal(false)}/>
+            </S.ModalCard>
+          </S.Modal>
+        )}
       </S.Gift>
       <S.Outfit>
         <S.OutfitImg src={traje} alt="traje" />

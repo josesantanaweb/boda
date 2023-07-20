@@ -607,3 +607,34 @@ export const FormRoses = styled.img`
   width: 220px;
   z-index: -1;
 `;
+
+export const Modal = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+`;
+
+export const ModalCard = styled.div`
+  background-color: #ffffff;
+  width: 90%;
+  height: 250px;
+  position: relative;
+`;
+
+export const ModalImg = styled.img`
+  width: 100%;
+`;
+
+export const ModalClose = styled.img`
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+`;
