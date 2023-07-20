@@ -172,8 +172,8 @@ const HomePage = () => {
       </S.After>
       <S.Guests>
         <S.GuestsIcon src={card} alt="card" />
-        <S.GuestsTitle>PASES</S.GuestsTitle>
-        <S.GuestsTitle>HEMOS RESERVADO</S.GuestsTitle>
+        <S.GuestsTitle>Pases</S.GuestsTitle>
+        <S.GuestsTitle>Hemos Reservado</S.GuestsTitle>
         <S.GuestsItems>
           <S.GuestsRow>
             <span style={{ backgroundColor: "#e9babc" }}></span>
@@ -188,7 +188,7 @@ const HomePage = () => {
             <p>4</p>
           </S.GuestsRow>
         </S.GuestsItems>
-        <S.GuestsTitle>LUGAR EN SU HONOR</S.GuestsTitle>
+        <S.GuestsTitle>Lugar en su Honor</S.GuestsTitle>
       </S.Guests>
       <S.Gift>
         <S.GiftInfo>
@@ -218,7 +218,7 @@ const HomePage = () => {
       <S.Outfit>
         <S.OutfitImg src={traje} alt="traje" />
         <S.OutfitTitle>Sugerencia de Vestimenta</S.OutfitTitle>
-        <S.OutfitText>TRAJE FORMAL. (Se reserva el color Rosa)</S.OutfitText>
+        <S.OutfitText>Traje Formal. (Se reserva el color Rosa)</S.OutfitText>
       </S.Outfit>
       <S.Outfit>
         <S.OutfitImg src={bebe} alt="bebe" />

@@ -1,11 +1,19 @@
 import { createGlobalStyle } from "styled-components";
 import MajorMonoTTF from "../assets/font.otf";
+import Custom from "../assets/font2.ttf";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Major Mono Display';
     src: url(${MajorMonoTTF}) format('truetype');
     font-weight: 300;
+    font-style: normal;
+    font-display: auto;
+  }
+  @font-face {
+    font-family: 'Custom';
+    src: url(${Custom}) format('truetype');
+    font-weight: 400;
     font-style: normal;
     font-display: auto;
   }

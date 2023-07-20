@@ -38,8 +38,8 @@ export const Names = styled.h3`
 
 export const Invitation = styled.h3`
   margin: 0;
-  font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-family: "Custom", sans-serif;
   color: #797777;
   font-style: italic;
   text-align: center;
@@ -62,7 +62,7 @@ export const Message = styled.p`
   color: #797777;
   text-align: center;
   font-style: italic;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   line-height: 1.5;
   border: 1px solid #797777;
   text-align: center;
@@ -94,7 +94,7 @@ export const Reservation = styled.h3`
 export const Date = styled.p`
   margin: 0;
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   margin: 3rem 4rem;
@@ -105,7 +105,7 @@ export const Date = styled.p`
 export const DaysLeftTitle = styled.h4`
   margin: 0;
   font-size: 1.2rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   margin: 3rem 4rem;
@@ -130,7 +130,7 @@ export const DaysLeftRow = styled.div`
 export const DaysNumber = styled.p`
   margin: 0;
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
 `;
@@ -192,7 +192,7 @@ export const InformationTitle = styled.h4`
 export const InformationHour = styled.h4`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -201,7 +201,7 @@ export const InformationHour = styled.h4`
 export const InformationSalon = styled.h6`
   margin: 0;
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -211,7 +211,7 @@ export const InformationSalon = styled.h6`
 export const InformationSite = styled.p`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -225,7 +225,7 @@ export const InformationSite = styled.p`
 export const InformationButton = styled.a`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   border: 1px solid #797777;
   background-color: #ffffff;
@@ -306,7 +306,7 @@ export const TimelineItem = styled.div`
 export const TimelineTitle = styled.h4`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -316,7 +316,7 @@ export const TimelineTitle = styled.h4`
 export const TimelineHour = styled.p`
   margin: 0;
   font-size: 0.75rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -348,7 +348,7 @@ export const AfterInfo = styled.div`
 export const AfterTitle = styled.h5`
   margin: 0;
   font-size: 1.2rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #FFFFFF;
   text-align: center;
   font-weight: 400;
@@ -358,7 +358,7 @@ export const AfterTitle = styled.h5`
 export const AfterDate = styled.p`
   margin: 0;
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #FFFFFF;
   line-height: 1.5;
   text-align: center;
@@ -373,7 +373,7 @@ export const Gift = styled.div`
 export const GiftMessage = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   margin-bottom: 1rem;
@@ -405,7 +405,7 @@ export const GiftTitle = styled.h4`
 export const GiftSite = styled.p`
   margin: 0;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -417,7 +417,7 @@ export const GiftButton = styled.a`
   margin: 0px auto;
   font-size: 0.875rem;
   background-color: #ffffff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   border: 1px solid #797777;
   border-radius: 35px;
@@ -447,7 +447,7 @@ export const GuestsIcon = styled.img`
 
 export const GuestsTitle = styled.h5`
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 500;
@@ -475,7 +475,7 @@ export const GuestsRow = styled.div`
   p {
     margin: 0 auto;
     font-size: 1rem;
-    font-family: "Nunito", sans-serif;
+    font-family: "Custom";
     color: #797777;
     text-align: center;
   }
@@ -513,7 +513,7 @@ export const OutfitTitle = styled.h4`
 export const OutfitText = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   width: 250px;
@@ -550,7 +550,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
   border: none;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   width: 100%;
   margin-bottom: 1rem;
   padding: 0 1rem;
@@ -567,7 +567,7 @@ export const FormTextarea = styled.textarea`
   border-radius: 4px;
   border: none;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   width: 100%;
   margin-bottom: 1.5rem;
   padding: 1rem;
@@ -585,7 +585,7 @@ export const FormSelect = styled.select`
   border: none;
   color: #797777;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   width: 100%;
   margin-bottom: 1rem;
   padding: 0 1rem;
@@ -604,7 +604,7 @@ export const FormButton = styled.a`
   border-radius: 4px;
   border: none;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Custom";
   width: 100%;
   margin-bottom: 1rem;
   text-transform: uppercase;
