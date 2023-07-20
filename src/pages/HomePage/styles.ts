@@ -421,6 +421,55 @@ export const GiftRoses = styled.img`
   transform: rotate(91deg);
 `;
 
+export const Guests = styled.div`
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+`;
+
+export const GuestsIcon = styled.img`
+  text-align: center;
+  margin: 0 auto 1rem;
+`;
+
+export const GuestsTitle = styled.h5`
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  margin: 0 auto 1rem;
+`;
+
+export const GuestsItems = styled.div`
+
+`;
+
+export const GuestsRow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 260px;
+  margin: 0 auto 1rem;
+  span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #e9babc;
+    background-color: #ffffff;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+    text-align: center;
+  }
+`;
+
 export const Outfit = styled.div`
   text-align: center;
   background-color: rgba(252, 117, 133, 0.3);

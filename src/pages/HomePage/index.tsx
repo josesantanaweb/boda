@@ -10,6 +10,7 @@ import bebe from "../../assets/images/bebe.png"
 import whatsapp from "../../assets/images/whatsapp.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
+import card from "../../assets/images/card.png";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
 const HomePage = () => {
@@ -155,6 +156,26 @@ const HomePage = () => {
           </S.AfterDate>
         </S.AfterInfo>
       </S.After>
+      <S.Guests>
+        <S.GuestsIcon src={card} alt="card" />
+        <S.GuestsTitle>PASES</S.GuestsTitle>
+        <S.GuestsTitle>HEMOS RESERVADO</S.GuestsTitle>
+        <S.GuestsItems>
+          <S.GuestsRow>
+            <span></span>
+            <span></span>
+            <span style={{ backgroundColor: "#e9babc" }}></span>
+            <span></span>
+          </S.GuestsRow>
+          <S.GuestsRow>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+          </S.GuestsRow>
+        </S.GuestsItems>
+        <S.GuestsTitle>LUGARES EN SU HONOR</S.GuestsTitle>
+      </S.Guests>
       <S.Gift>
         <S.GiftInfo>
           <S.GiftMessage>
