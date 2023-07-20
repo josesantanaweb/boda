@@ -62,7 +62,7 @@ export const Message = styled.p`
   font-style: italic;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
-  border: 1px solid #797777;
+  border: 1px solid #FC7585;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -381,7 +381,7 @@ export const GiftMessage = styled.p`
 `;
 
 export const GiftInfo = styled.div`
-  border: 1px solid #797777;
+  border: 1px solid #fc7585;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -491,7 +491,7 @@ export const Outfit = styled.div`
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
-  border: 1px solid #797777;
+  border: 1px solid #fc7585;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;

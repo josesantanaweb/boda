@@ -81,7 +81,6 @@ const HomePage = () => {
         style={{
           marginBottom: "2rem",
           fontSize: "3.5rem",
-          color: "#797777",
           width: 290,
         }}
       >
