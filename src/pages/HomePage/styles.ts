@@ -4,14 +4,16 @@ import fondo from "../../assets/images/fondo.jpg";
 export const Home = styled.main`
   background-image: url(${fondo});
   position: relative;
+  overflow: hidden;
 `;
 
 export const Plant = styled.img`
   margin: auto;
   position: absolute;
-  top: -90px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: -60px;
+  right: -90px;
+  width: 50%;
+  transform: rotate(62deg);
 `;
 
 export const Roses = styled.img`
@@ -62,7 +64,7 @@ export const Message = styled.p`
   font-style: italic;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
-  border: 1px solid #FC7585;
+  border: 1px solid #797777;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -381,7 +383,7 @@ export const GiftMessage = styled.p`
 `;
 
 export const GiftInfo = styled.div`
-  border: 1px solid #fc7585;
+  border: 1px solid #797777;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -428,13 +430,6 @@ export const GiftButton = styled.a`
   justify-content: center;
   cursor: pointer;
   text-decoration: none;
-`;
-
-export const GiftRoses = styled.img`
-  position: absolute;
-  right: -172px;
-  top: 170px;
-  transform: rotate(91deg);
 `;
 
 export const Guests = styled.div`
@@ -491,7 +486,7 @@ export const Outfit = styled.div`
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
-  border: 1px solid #fc7585;
+  border: 1px solid #797777;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -529,6 +524,14 @@ export const OutfitText = styled.p`
 export const Form = styled.div`
   padding: 3rem 2rem 6rem;
   position: relative;
+`;
+
+export const FormRose = styled.img`
+  position: absolute;
+  left: 0;
+  width: 50%;
+  top: 170px;
+  transform: rotate(91deg);
 `;
 
 export const FormTitle = styled.h4`
@@ -623,10 +626,10 @@ export const FormIconWS = styled.img`
 
 export const FormRoses = styled.img`
   position: absolute;
-  bottom: -80px;
-  left: -20px;
-  width: 220px;
-  z-index: -1;
+  left: 0px;
+  width: 50%;
+  bottom: -90px;
+  transform: rotate(91deg);
 `;
 
 export const Modal = styled.div`

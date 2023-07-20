@@ -12,7 +12,8 @@ import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
 import regalo from "../../assets/images/regalo.png";
-import plant from "../../assets/images/plant.png";
+import roses from "../../assets/images/roses.png";
+import roses2 from "../../assets/images/roses-2.png";
 import close from "../../assets/images/close.svg";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
@@ -62,7 +63,7 @@ const HomePage = () => {
 
   return (
     <S.Home>
-      <S.Plant src={plant} alt="plant" />
+      <S.Plant src={roses} alt="roses" />
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
       </S.Invitation>
@@ -227,6 +228,7 @@ const HomePage = () => {
         </S.OutfitText>
       </S.Outfit>
       <S.Form>
+        <S.FormRose src={roses2} alt="roses2" />
         <S.FormTitle>Confirma tu Asistencia</S.FormTitle>
         <S.FormInput
           placeholder="Nombre"
