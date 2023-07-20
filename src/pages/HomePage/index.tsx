@@ -64,7 +64,7 @@ const HomePage = () => {
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
       </S.Invitation>
-      <S.Names>Vanessa y Robert</S.Names>
+      <S.Names>Vanessa & Robert</S.Names>
       <S.Cancion controls>
         <source src={cancion} type="audio/mpeg" />
         Your browser does not support the audio element.

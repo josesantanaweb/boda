@@ -15,11 +15,13 @@ export const Roses = styled.img`
 
 export const Names = styled.h3`
   margin: 0;
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-family: "Major Mono Display";
-  color: #797777;
+  color: #000000;
   text-align: center;
-  margin: 2rem 0 4rem;
+  text-transform: capitalize;
+  margin: 2rem auto 4rem;
+  width: 180px;
   font-weight: 400;
 `;
 
