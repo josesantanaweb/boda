@@ -15,7 +15,7 @@ export const Roses = styled.img`
 
 export const Names = styled.h3`
   margin: 0;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: "Major Mono Display";
   color: #000000;
   text-align: center;
@@ -50,8 +50,10 @@ export const Message = styled.p`
   text-align: center;
   font-style: italic;
   font-family: "Nunito", sans-serif;
-  margin: 2rem 4rem 4rem;
   line-height: 1.5;
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-top: 2rem;
 `;
 
 export const Floral = styled.img`

@@ -61,10 +61,10 @@ const HomePage = () => {
 
   return (
     <S.Home>
-      <S.Names>Vanessa y Robert</S.Names>
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
       </S.Invitation>
+      <S.Names>Vanessa y Robert</S.Names>
       <S.Cancion controls>
         <source src={cancion} type="audio/mpeg" />
         Your browser does not support the audio element.
