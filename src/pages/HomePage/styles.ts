@@ -231,7 +231,7 @@ export const InformationRoses = styled.img`
 `;
 
 export const Timeline = styled.div`
-  background-color: rgba(252, 117, 133, 0.3);
+  background-color: rgb(251 182 190);
   padding: 2rem;
 `;
 
@@ -289,7 +289,7 @@ export const TimelineTitle = styled.h4`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #b39a96;
+  color: #000000;
   text-align: center;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -472,7 +472,7 @@ export const GuestsRow = styled.div`
 
 export const Outfit = styled.div`
   text-align: center;
-  background-color: rgba(252, 117, 133, 0.3);
+  background-color: #ffffff;
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
