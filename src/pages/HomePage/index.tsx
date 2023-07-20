@@ -75,7 +75,7 @@ const HomePage = () => {
         eso se trata nuestro amor, una magia que el tiempo y la distancia no
         pudieron borrar.
       </S.Message>
-      <S.Names style={{ marginBottom: "2rem" }}>Ya Falta Poco</S.Names>
+      <S.Names style={{ marginBottom: "2rem", fontSize: '3.5rem' }}>Ya Falta Poco</S.Names>
       <S.Floral src={floral} alt="floral" />
       <S.Date>2 de Septiembre del 2023 Valencia - San Diego</S.Date>
       <S.DaysLeftTitle>Falta:</S.DaysLeftTitle>
@@ -177,7 +177,7 @@ const HomePage = () => {
             <p>4</p>
           </S.GuestsRow>
         </S.GuestsItems>
-        <S.GuestsTitle>LUGARES EN SU HONOR</S.GuestsTitle>
+        <S.GuestsTitle>LUGAR EN SU HONOR</S.GuestsTitle>
       </S.Guests>
       <S.Gift>
         <S.GiftInfo>

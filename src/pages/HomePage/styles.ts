@@ -17,7 +17,7 @@ export const Names = styled.h3`
   margin: 0;
   font-size: 4rem;
   font-family: "Major Mono Display";
-  color: #000000;
+  color: #797777;
   text-align: center;
   margin: 2rem 0 4rem;
   font-weight: 400;
@@ -27,7 +27,7 @@ export const Invitation = styled.h3`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #c78f78;
+  color: #797777;
   font-style: italic;
   text-align: center;
   margin: 2.5rem auto 3rem;
@@ -46,14 +46,17 @@ export const Cancion = styled.audio`
 export const Message = styled.p`
   margin: 0;
   font-size: 0.875rem;
-  color: #C78F78;
+  color: #797777;
   text-align: center;
   font-style: italic;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
-  background-color: #ffffff;
+  border: 1px solid #797777;
+  text-align: center;
+  max-width: 240px;
+  margin: 2rem auto 0;
   padding: 2rem;
-  margin-top: 2rem;
+  background-color: #ffffff;
 `;
 
 export const Floral = styled.img`
@@ -79,7 +82,7 @@ export const Date = styled.p`
   margin: 0;
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   margin: 3rem 4rem;
   font-weight: 400;
@@ -90,7 +93,7 @@ export const DaysLeftTitle = styled.h4`
   margin: 0;
   font-size: 1.2rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   margin: 3rem 4rem;
   font-weight: 400;
@@ -115,7 +118,7 @@ export const DaysNumber = styled.p`
   margin: 0;
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
 `;
 
@@ -165,7 +168,7 @@ export const InformationTitle = styled.h4`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Neuton", serif;
-  color: #000000;
+  color: #797777;
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
@@ -177,7 +180,7 @@ export const InformationHour = styled.h4`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
 `;
@@ -186,7 +189,7 @@ export const InformationSalon = styled.h6`
   margin: 0;
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -196,7 +199,7 @@ export const InformationSite = styled.p`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   width: 200px;
@@ -210,8 +213,8 @@ export const InformationButton = styled.a`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #c78f78;
-  border: 1px solid #c78f78;
+  color: #797777;
+  border: 1px solid #797777;
   background-color: #ffffff;
   border-radius: 35px;
   text-align: center;
@@ -291,7 +294,7 @@ export const TimelineTitle = styled.h4`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -301,7 +304,7 @@ export const TimelineHour = styled.p`
   margin: 0;
   font-size: 0.75rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
 `;
@@ -358,7 +361,7 @@ export const GiftMessage = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #C78F78;
+  color: #797777;
   text-align: center;
   margin-bottom: 1rem;
   width: 250px;
@@ -367,7 +370,7 @@ export const GiftMessage = styled.p`
 `;
 
 export const GiftInfo = styled.div`
-  border: 1px solid #c78f78;
+  border: 1px solid #797777;
   text-align: center;
   max-width: 240px;
   margin: 2rem auto 0;
@@ -379,7 +382,7 @@ export const GiftTitle = styled.h4`
   margin: 0;
   font-size: 2rem;
   font-family: "Major Mono Display";
-  color: #C78F78;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.3rem;
@@ -390,7 +393,7 @@ export const GiftSite = styled.p`
   margin: 0;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #C78F78;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   line-height: 1.5;
@@ -402,8 +405,8 @@ export const GiftButton = styled.a`
   font-size: 0.875rem;
   background-color: #ffffff;
   font-family: "Nunito", sans-serif;
-  color: #C78F78;
-  border: 1px solid #C78F78;
+  color: #797777;
+  border: 1px solid #797777;
   border-radius: 35px;
   text-align: center;
   font-weight: 400;
@@ -439,7 +442,7 @@ export const GuestsIcon = styled.img`
 export const GuestsTitle = styled.h5`
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 500;
   margin: 0 auto 1rem;
@@ -467,17 +470,22 @@ export const GuestsRow = styled.div`
     margin: 0 auto;
     font-size: 1rem;
     font-family: "Nunito", sans-serif;
-    color: #000000;
+    color: #797777;
     text-align: center;
   }
 `;
 
 export const Outfit = styled.div`
   text-align: center;
-  background-color: #ffffff;
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  border: 1px solid #797777;
+  text-align: center;
+  max-width: 240px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  background-color: #ffffff;
 `;
 
 export const OutfitImg = styled.img`
@@ -489,7 +497,7 @@ export const OutfitTitle = styled.h4`
   margin: 0 auto 1rem;
   font-size: 2rem;
   font-family: "Major Mono Display";
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.3rem;
@@ -500,7 +508,7 @@ export const OutfitText = styled.p`
   margin: 0 auto;
   font-size: 0.875rem;
   font-family: "Nunito", sans-serif;
-  color: #000000;
+  color: #797777;
   text-align: center;
   width: 250px;
   line-height: 1.5;
@@ -516,7 +524,7 @@ export const FormTitle = styled.h4`
   margin: 0 auto 2.5rem;
   font-size: 2.4rem;
   font-family: "Major Mono Display";
-  color: #000000;
+  color: #797777;
   text-align: center;
   font-weight: 400;
   line-height: 1.5;
@@ -534,7 +542,7 @@ export const FormInput = styled.input`
   padding: 0 1rem;
   box-sizing: border-box;
   ::placeholder {
-    color: #000000;
+    color: #797777;
     opacity: 1;
   }
 `;
@@ -551,7 +559,7 @@ export const FormTextarea = styled.textarea`
   padding: 1rem;
   box-sizing: border-box;
   ::placeholder {
-    color: #000000;
+    color: #797777;
     opacity: 1;
   }
 `;
@@ -561,7 +569,7 @@ export const FormSelect = styled.select`
   height: 40px;
   border-radius: 4px;
   border: none;
-  color: #000000;
+  color: #797777;
   outline: none;
   font-family: "Nunito", sans-serif;
   width: 100%;
@@ -569,7 +577,7 @@ export const FormSelect = styled.select`
   padding: 0 1rem;
   box-sizing: border-box;
   ::placeholder {
-    color: #000000;
+    color: #797777;
     opacity: 1;
   }
 `;
