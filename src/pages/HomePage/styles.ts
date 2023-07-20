@@ -10,7 +10,8 @@ export const Plant = styled.img`
   margin: auto;
   position: absolute;
   top: -90px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
 `;
 
 export const Roses = styled.img`
