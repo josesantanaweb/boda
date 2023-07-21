@@ -851,7 +851,7 @@ export const Plant17 = styled.img`
 
 
 export const MusicIcon = styled.img`
-  width: 40px;
+  width: 30px;
   margin: 0 auto 1rem;
 `;
 
