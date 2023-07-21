@@ -229,17 +229,19 @@ const HomePage = () => {
         <S.OutfitTitle>Sugerencia de Vestimenta</S.OutfitTitle>
         <S.OutfitText>Traje Formal. (Se reserva el color Rosa)</S.OutfitText>
       </S.Outfit>
-      <S.Outfit>
+      <S.Outfit2>
+        <S.Plant15 src={roses} alt="roses" />
+        <S.Plant16 src={roses} alt="roses" />
         <S.OutfitImg src={bebe} alt="bebe" />
         <S.OutfitText>
           Es una noche mágica para compartir entre adultos. Agradecemos tu
           comprensión y esperamos celebrar juntos (Niños dulces sueños)
         </S.OutfitText>
-      </S.Outfit>
+      </S.Outfit2>
       <S.Social>
         <S.Plant14 src={roses} alt="roses" />
         <S.SocialIcon src={instagram} alt="instagram" />
-        <S.SocialHashtag>#Vanessa&Robert</S.SocialHashtag>
+        <S.SocialHashtag>#BodaVane&Robert</S.SocialHashtag>
         <S.OutfitText>
           Ahora puedes entrar a Instagram con nuestro hashtag y dejarnos una
           foto que recuerde momentos que hemos pasado junto a ti comparte tu

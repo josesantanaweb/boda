@@ -575,6 +575,38 @@ export const Outfit = styled.div`
   position: relative;
 `;
 
+export const Outfit2 = styled.div`
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border: 1px solid #797777;
+  text-align: center;
+  max-width: 240px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  background-color: #ffffff;
+  position: relative;
+`;
+
+export const Plant15 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -30px;
+  left: -140px;
+  width: 50%;
+  transform: rotate(212deg);
+`;
+
+export const Plant16 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 220px;
+  right: -140px;
+  width: 50%;
+  transform: rotate(96deg);
+`;
+
 export const Plant12 = styled.img`
   margin: auto;
   position: absolute;
@@ -771,7 +803,7 @@ export const Social = styled.div`
 export const Plant14 = styled.img`
   margin: auto;
   position: absolute;
-  top: 80px;
+  top: 20px;
   left: -150px;
   width: 50%;
   transform: rotate(212deg);
