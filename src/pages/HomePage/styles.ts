@@ -500,6 +500,15 @@ export const Plant7 = styled.img`
   transform: rotate(116deg);
 `;
 
+export const Plant8 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -20px;
+  left: -70px;
+  width: 50%;
+  transform: rotate(289deg);
+`;
+
 export const GuestsIcon = styled.img`
   text-align: center;
   margin: 0 auto 1rem;

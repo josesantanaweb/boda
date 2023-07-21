@@ -180,6 +180,7 @@ const HomePage = () => {
         </S.AfterInfo>
       </S.After>
       <S.Guests>
+        <S.Plant8 src={roses} alt="roses" />
         <S.Plant7 src={roses} alt="roses" />
         <S.GuestsIcon src={card} alt="card" />
         <S.GuestsTitle>Pases</S.GuestsTitle>
