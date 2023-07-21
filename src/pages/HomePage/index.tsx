@@ -223,6 +223,8 @@ const HomePage = () => {
         )}
       </S.Gift>
       <S.Outfit>
+        <S.Plant12 src={roses} alt="roses" />
+        <S.Plant13 src={roses} alt="roses" />
         <S.OutfitImg src={traje} alt="traje" />
         <S.OutfitTitle>Sugerencia de Vestimenta</S.OutfitTitle>
         <S.OutfitText>Traje Formal. (Se reserva el color Rosa)</S.OutfitText>
@@ -260,7 +262,9 @@ const HomePage = () => {
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
           Contacto Vanessa
         </S.FormButton>
-        <S.OutfitText>¡Te esperamos !</S.OutfitText>
+        <S.OutfitText style={{ fontSize: 30, marginTop: 20 }}>
+          ¡Te esperamos !
+        </S.OutfitText>
       </S.Form>
     </S.Home>
   );

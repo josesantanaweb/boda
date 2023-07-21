@@ -572,6 +572,26 @@ export const Outfit = styled.div`
   margin: 2rem auto 0;
   padding: 2rem;
   background-color: #ffffff;
+  position: relative;
+`;
+
+export const Plant12 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -30px;
+  left: -90px;
+  width: 50%;
+  transform: rotate(283deg);
+  z-index: 1;
+`;
+
+export const Plant13 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 180px;
+  right: -150px;
+  width: 50%;
+  transform: rotate(90deg);
 `;
 
 export const OutfitImg = styled.img`
@@ -581,8 +601,8 @@ export const OutfitImg = styled.img`
 
 export const OutfitTitle = styled.h4`
   margin: 0 auto 1rem;
-  font-size: 2rem;
-  font-family: "Major Mono Display";
+  font-size: 1.5rem;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
