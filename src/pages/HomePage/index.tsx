@@ -121,8 +121,8 @@ const HomePage = () => {
       </S.DaysLeft>
       <S.Photos>
         <S.Photo src={photo2} alt="photo" />
-        <S.Photo src={photo4} alt="photo" />
         <S.Photo src={photo3} alt="photo" />
+        <S.Photo src={photo4} alt="photo" />
       </S.Photos>
       <S.Information>
         <S.Plant5 src={roses} alt="roses" />
@@ -235,6 +235,7 @@ const HomePage = () => {
         </S.OutfitText>
       </S.Outfit>
       <S.Form>
+        <S.Plant10 src={roses} alt="roses" />
         <S.FormRose src={roses2} alt="roses2" />
         <S.FormTitle>Confirma tu Asistencia</S.FormTitle>
         <S.FormInput
@@ -253,11 +254,11 @@ const HomePage = () => {
         </S.FormSelect>
         <S.FormButton onClick={handleWhatsappRobert}>
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
-          CONTACTO ROBERT
+          Contacto Robert
         </S.FormButton>
         <S.FormButton onClick={handleWhatsappVanessa}>
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
-          CONTACTO VANESSA
+          Contacto Vanessa
         </S.FormButton>
       </S.Form>
     </S.Home>

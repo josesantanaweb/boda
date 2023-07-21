@@ -586,7 +586,6 @@ export const OutfitTitle = styled.h4`
   color: #797777;
   text-align: center;
   font-weight: 400;
-  letter-spacing: 0.3rem;
   width: 200px;
 `;
 
@@ -606,6 +605,15 @@ export const Form = styled.div`
   position: relative;
 `;
 
+export const Plant10 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -30px;
+  right: -110px;
+  width: 50%;
+  transform: rotate(90deg);
+`;
+
 export const FormRose = styled.img`
   position: absolute;
   left: 0px;
@@ -616,7 +624,7 @@ export const FormRose = styled.img`
 
 export const FormTitle = styled.h4`
   margin: 0 auto 2.5rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-family: "Major Mono Display";
   color: #797777;
   text-align: center;
@@ -678,7 +686,7 @@ export const FormSelect = styled.select`
 
 export const FormButton = styled.a`
   background-color: #f7a49e;
-  color: #ffffff;
+  color: #797777;
   height: 40px;
   font-size: 0.875rem;
   border-radius: 4px;
@@ -687,7 +695,6 @@ export const FormButton = styled.a`
   font-family: "Custom";
   width: 100%;
   margin-bottom: 1rem;
-  text-transform: uppercase;
   font-weight: 400;
   padding: 0 1rem;
   height: 40px;
