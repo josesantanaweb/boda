@@ -450,7 +450,6 @@ export const GiftTitle = styled.h4`
   color: #797777;
   text-align: center;
   font-weight: 400;
-  letter-spacing: 0.3rem;
   margin-bottom: 1rem;
 `;
 

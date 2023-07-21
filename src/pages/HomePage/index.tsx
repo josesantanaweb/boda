@@ -206,7 +206,6 @@ const HomePage = () => {
             obsequio ponemos a su disposición nuestras sugerencias.
           </S.GiftMessage>
           <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
-          <S.GiftSite>Salon Salsa & Cebada</S.GiftSite>
           <S.GiftButton onClick={() => setOpenModal(true)}>
             Ver Sugerencias
           </S.GiftButton>
