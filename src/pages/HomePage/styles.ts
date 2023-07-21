@@ -16,6 +16,7 @@ export const Plant = styled.img`
   transform: rotate(62deg);
 `;
 
+
 export const Roses = styled.img`
   width: 300px;
   margin: auto;
@@ -34,6 +35,16 @@ export const Names = styled.h3`
   margin: 2rem auto 4rem;
   width: 180px;
   font-weight: 400;
+  position: relative;
+`;
+
+export const Plant6 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  right: -180px;
+  width: 70%;
+  transform: rotate(62deg);
 `;
 
 export const Invitation = styled.h3`
@@ -168,7 +179,8 @@ export const DaysNumber = styled.p`
 `;
 
 export const Photos = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
@@ -177,6 +189,7 @@ export const Photos = styled.div`
 
 export const Photo = styled.img`
   height: 196px;
+  width: 100%;
 `;
 
 export const Information = styled.div`
@@ -240,7 +253,7 @@ export const InformationHour = styled.h4`
 
 export const InformationSalon = styled.h6`
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -250,7 +263,7 @@ export const InformationSalon = styled.h6`
 
 export const InformationSite = styled.p`
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -288,7 +301,7 @@ export const InformationRoses = styled.img`
 `;
 
 export const Timeline = styled.div`
-  background-color: rgb(251 182 190);
+  background-color: rgba(251, 182, 190, 0.6);
   padding: 2rem;
 `;
 
@@ -377,7 +390,7 @@ export const AfterImg = styled.img`
 
 export const AfterInfo = styled.div`
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   width: 300px;
   z-index: 100;
@@ -396,7 +409,7 @@ export const AfterTitle = styled.h5`
 
 export const AfterDate = styled.p`
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Custom";
   color: #FFFFFF;
   line-height: 1.5;
@@ -411,7 +424,7 @@ export const Gift = styled.div`
 
 export const GiftMessage = styled.p`
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -432,8 +445,8 @@ export const GiftInfo = styled.div`
 
 export const GiftTitle = styled.h4`
   margin: 0;
-  font-size: 2.5rem;
-  font-family: "Major Mono Display";
+  font-size: 2.2rem;
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -485,7 +498,7 @@ export const GuestsIcon = styled.img`
 `;
 
 export const GuestsTitle = styled.h5`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -501,19 +514,19 @@ export const GuestsRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
   width: 260px;
   margin: 0 auto 1rem;
   span {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
     border: 2px solid #e9babc;
     background-color: #ffffff;
   }
   p {
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: "Custom";
     color: #797777;
     text-align: center;
@@ -684,12 +697,4 @@ export const ModalCard = styled.div`
 
 export const ModalImg = styled.img`
   width: 100%;
-`;
-
-export const ModalClose = styled.img`
-  cursor: pointer;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 15px;
 `;
