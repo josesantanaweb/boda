@@ -13,7 +13,7 @@ import whatsapp from "../../assets/images/whatsapp.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
-import regalo from "../../assets/images/regalo.png";
+import regalo from "../../assets/images/regalo.jpeg";
 import roses from "../../assets/images/roses.png";
 import roses2 from "../../assets/images/roses-2.png";
 import roses3 from "../../assets/images/roses-3.png";
@@ -260,6 +260,7 @@ const HomePage = () => {
           <S.FormIconWS src={whatsapp} alt="whatsapp" />
           Contacto Vanessa
         </S.FormButton>
+        <S.OutfitText>¡Te esperamos !</S.OutfitText>
       </S.Form>
     </S.Home>
   );
