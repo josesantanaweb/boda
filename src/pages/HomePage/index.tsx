@@ -120,8 +120,8 @@ const HomePage = () => {
         </S.DaysLeftRow>
       </S.DaysLeft>
       <S.Photos>
-        <S.Photo src={photo2} alt="photo" />
         <S.Photo src={photo3} alt="photo" />
+        <S.Photo src={photo2} alt="photo" />
         <S.Photo src={photo4} alt="photo" />
       </S.Photos>
       <S.Information>
