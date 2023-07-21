@@ -352,13 +352,13 @@ export const TimelineItems = styled.div`
 `;
 
 export const TimelineItem = styled.div`
-  width: 60px;
 `;
 
 export const TimelineTitle = styled.h4`
   margin: 0;
   font-size: 1.2rem;
   font-family: "Custom";
+  text-transform: capitalize;
   color: #797777;
   text-align: center;
   font-weight: 400;
@@ -645,7 +645,7 @@ export const FormRose = styled.img`
 export const FormTitle = styled.h4`
   margin: 0 auto 2.5rem;
   font-size: 2rem;
-  font-family: "Major Mono Display";
+  font-family: "Custom";
   color: #797777;
   text-align: center;
   font-weight: 400;
