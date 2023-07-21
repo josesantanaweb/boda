@@ -3,6 +3,7 @@ import * as S from "./styles";
 import photo1 from "../../assets/images/photo1.png"
 import photo2 from "../../assets/images/photo2.png"
 import photo3 from "../../assets/images/photo3.png"
+import photo4 from "../../assets/images/photo4.png"
 import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
 import after from "../../assets/images/after.png"
@@ -119,8 +120,8 @@ const HomePage = () => {
         </S.DaysLeftRow>
       </S.DaysLeft>
       <S.Photos>
-        <S.Photo src={photo1} alt="photo" />
         <S.Photo src={photo2} alt="photo" />
+        <S.Photo src={photo4} alt="photo" />
         <S.Photo src={photo3} alt="photo" />
       </S.Photos>
       <S.Information>
@@ -202,6 +203,7 @@ const HomePage = () => {
         <S.GuestsTitle>Lugar en su Honor</S.GuestsTitle>
       </S.Guests>
       <S.Gift>
+        <S.Plant9 src={roses} alt="roses" />
         <S.GiftInfo>
           <S.GiftMessage>
             Su presencia es nuestro mejor regalo, pero si desean hacernos un

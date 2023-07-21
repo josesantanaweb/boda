@@ -422,6 +422,17 @@ export const Gift = styled.div`
   overflow: hidden;
 `;
 
+
+export const Plant9 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 90px;
+  left: -180px;
+  width: 70%;
+  transform: rotate(291deg);
+`;
+
+
 export const GiftMessage = styled.p`
   margin: 0 auto;
   font-size: 1.3rem;
