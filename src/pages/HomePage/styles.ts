@@ -10,8 +10,8 @@ export const Home = styled.main`
 export const Plant = styled.img`
   margin: auto;
   position: absolute;
-  top: -60px;
-  right: -90px;
+  top: -40px;
+  right: -50px;
   width: 50%;
   transform: rotate(62deg);
 `;
@@ -38,7 +38,7 @@ export const Names = styled.h3`
 
 export const Invitation = styled.h3`
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Custom", sans-serif;
   color: #797777;
   font-style: italic;
@@ -48,8 +48,17 @@ export const Invitation = styled.h3`
   font-weight: 400;
   width: 250px;
   padding-top: 40px;
+  position: relative;
 `;
 
+export const Plant2 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 80px;
+  left: -130px;
+  width: 50%;
+  transform: rotate(212deg);
+`;
 
 export const Cancion = styled.audio`
   display: flex;
@@ -70,14 +79,37 @@ export const Message = styled.p`
   margin: 2rem auto 0;
   padding: 2rem;
   background-color: #ffffff;
+  position: relative;
+`;
+
+
+export const Plant3 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: -60px;
+  right: -110px;
+  width: 50%;
+  transform: rotate(90deg);
+`;
+
+export const Plant4 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 170px;
+  left: -160px;
+  width: 50%;
+  transform: rotate(194deg);
 `;
 
 export const Floral = styled.img`
-  width: 175px;
+  width: 40%;
   margin: auto;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
+  transform: rotate(6deg);
 `;
 
 export const Reservation = styled.h3`
@@ -153,7 +185,15 @@ export const Information = styled.div`
   align-items: center;
   padding: 2rem 0;
   position: relative;
-  background-color: #ffffff;
+`;
+
+export const Plant5 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  width: 50%;
+  transform: rotate(161deg);
 `;
 
 export const InformationRow = styled.div`
@@ -228,7 +268,6 @@ export const InformationButton = styled.a`
   font-family: "Custom";
   color: #797777;
   border: 1px solid #797777;
-  background-color: #ffffff;
   border-radius: 35px;
   text-align: center;
   font-weight: 400;

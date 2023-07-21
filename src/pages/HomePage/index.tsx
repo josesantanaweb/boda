@@ -14,6 +14,7 @@ import card from "../../assets/images/card.png";
 import regalo from "../../assets/images/regalo.png";
 import roses from "../../assets/images/roses.png";
 import roses2 from "../../assets/images/roses-2.png";
+import roses3 from "../../assets/images/roses-3.png";
 import close from "../../assets/images/close.svg";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
@@ -66,6 +67,7 @@ const HomePage = () => {
       <S.Plant src={roses} alt="roses" />
       <S.Invitation>
         Están cordialmente invitados a la celebración de nuestra boda
+        <S.Plant2 src={roses} alt="roses" />
       </S.Invitation>
       <S.Names>Vanessa & Robert</S.Names>
       <S.Cancion controls>
@@ -73,10 +75,12 @@ const HomePage = () => {
         Your browser does not support the audio element.
       </S.Cancion>
       <S.Message>
-        Ha sido un largo camino, durante el que hemos crecido y aprendido
+        Ha sido un largo camino, durante el cual hemos crecido y aprendido
         juntos; hemos compartido alegrías y tristezas, abundancia y escasez.. De
         eso se trata nuestro amor, una magia que el tiempo y la distancia no
-        pudieron borrar.
+        pudo borrar.
+        <S.Plant3 src={roses} alt="roses" />
+        <S.Plant4 src={roses} alt="roses" />
       </S.Message>
       <S.Names
         style={{
@@ -87,8 +91,8 @@ const HomePage = () => {
       >
         Ya Falta Poco
       </S.Names>
-      <S.Floral src={floral} alt="floral" />
-      <S.Date>2 de Septiembre del 2023 Valencia - San Diego</S.Date>
+      <S.Floral src={roses3} alt="roses" />
+      <S.Date>02 de Septiembre del 2023 Valencia - San Diego</S.Date>
       <S.DaysLeftTitle>Falta:</S.DaysLeftTitle>
       <S.DaysLeft>
         <S.DaysLeftRow style={{ marginBottom: "1.5rem" }}>
@@ -116,6 +120,7 @@ const HomePage = () => {
         <S.Photo src={photo} alt="photo" />
       </S.Photos>
       <S.Information>
+        <S.Plant5 src={roses} alt="roses" />
         <S.InformationSalon>Salon Salsa & Cebada</S.InformationSalon>
         <S.InformationSite>
           Las Morochas 1 calle los jazmines # 20 -10 C, San Diego
@@ -166,7 +171,7 @@ const HomePage = () => {
         <S.AfterImg src={after} alt="after" />
         <S.AfterInfo>
           <S.AfterDate>
-            Domingo 3 De septiembre Pool Party. Lugar Salsa y Cebada
+            Domingo 03 De septiembre Pool Party. Lugar Salsa y Cebada
           </S.AfterDate>
         </S.AfterInfo>
       </S.After>
