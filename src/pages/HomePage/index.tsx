@@ -258,7 +258,7 @@ const HomePage = () => {
         <S.OutfitText>
           Ahora puedes entrar a Instagram con nuestro hashtag y dejarnos una
           foto que recuerde momentos que hemos pasado junto a ti comparte tu
-          fotos con nosootros!
+          fotos con nosotros!
         </S.OutfitText>
       </S.Social>
       <S.Music>
