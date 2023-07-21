@@ -254,12 +254,14 @@ const HomePage = () => {
         <S.Plant14 src={roses} alt="roses" />
         <S.Plant17 src={roses} alt="roses" />
         <S.SocialIcon src={instagram} alt="instagram" />
-        <S.SocialHashtag>#BodaVane&Robert</S.SocialHashtag>
         <S.OutfitText>
           Ahora puedes entrar a Instagram con nuestro hashtag y dejarnos una
           foto que recuerde momentos que hemos pasado junto a ti comparte tu
           fotos con nosotros!
         </S.OutfitText>
+        <S.GiftButton onClick={handleWhatsappVanessa2} style={{marginTop: '1.5rem'}}>
+          #BodaVane&Robert
+        </S.GiftButton>
       </S.Social>
       <S.Music>
         <S.Plant14 src={roses} alt="roses" />
