@@ -485,10 +485,19 @@ export const GiftButton = styled.a`
 
 export const Guests = styled.div`
   text-align: center;
-  background-color: #ffffff;
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  position: relative;
+`;
+
+export const Plant7 = styled.img`
+  margin: auto;
+  position: absolute;
+  bottom: -110px;
+  right: -70px;
+  width: 50%;
+  transform: rotate(116deg);
 `;
 
 export const GuestsIcon = styled.img`
@@ -513,8 +522,8 @@ export const GuestsRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  width: 260px;
+  gap: 1rem;
+  width: 220px;
   margin: 0 auto 1rem;
   span {
     width: 35px;
