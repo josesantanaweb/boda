@@ -638,6 +638,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
   border: none;
   outline: none;
+  font-size: 1.2rem;
   font-family: "Custom";
   width: 100%;
   margin-bottom: 1rem;
@@ -654,6 +655,7 @@ export const FormTextarea = styled.textarea`
   height: 90px;
   border-radius: 4px;
   border: none;
+  font-size: 1.2rem;
   outline: none;
   font-family: "Custom";
   width: 100%;
@@ -672,6 +674,7 @@ export const FormSelect = styled.select`
   border-radius: 4px;
   border: none;
   color: #797777;
+  font-size: 1.2rem;
   outline: none;
   font-family: "Custom";
   width: 100%;
@@ -688,7 +691,7 @@ export const FormButton = styled.a`
   background-color: #f7a49e;
   color: #797777;
   height: 40px;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   border-radius: 4px;
   border: none;
   outline: none;
