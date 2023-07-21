@@ -756,3 +756,39 @@ export const ModalCard = styled.div`
 export const ModalImg = styled.img`
   width: 100%;
 `;
+
+export const Social = styled.div`
+  width: 100%;
+  border: 1px solid rgb(121, 119, 119);
+  text-align: center;
+  max-width: 240px;
+  margin: 2rem auto 0px;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+`;
+
+export const Plant14 = styled.img`
+  margin: auto;
+  position: absolute;
+  top: 80px;
+  left: -150px;
+  width: 50%;
+  transform: rotate(212deg);
+`;
+
+export const SocialIcon = styled.img`
+  width: 60px;
+  margin: 0 auto 1rem;
+`;
+
+export const SocialHashtag = styled.span`
+  background-color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Custom";
+  border: 1px solid #949292;
+  padding: 10px;
+  margin: 0 auto 1rem;
+`;

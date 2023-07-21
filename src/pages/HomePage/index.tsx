@@ -17,7 +17,7 @@ import regalo from "../../assets/images/regalo.jpeg";
 import roses from "../../assets/images/roses.png";
 import roses2 from "../../assets/images/roses-2.png";
 import roses3 from "../../assets/images/roses-3.png";
-import close from "../../assets/images/close.svg";
+import instagram from "../../assets/images/instagram.png";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
 const HomePage = () => {
@@ -236,6 +236,16 @@ const HomePage = () => {
           comprensión y esperamos celebrar juntos (Niños dulces sueños)
         </S.OutfitText>
       </S.Outfit>
+      <S.Social>
+        <S.Plant14 src={roses} alt="roses" />
+        <S.SocialIcon src={instagram} alt="instagram" />
+        <S.SocialHashtag>#Vanessa&Robert</S.SocialHashtag>
+        <S.OutfitText>
+          Ahora puedes entrar a Instagram con nuestro hashtag y dejarnos una
+          foto que recuerde momentos que hemos pasado junto a ti comparte tu
+          fotos con nosootros!
+        </S.OutfitText>
+      </S.Social>
       <S.Form>
         <S.Plant10 src={roses} alt="roses" />
         <S.FormRose src={roses2} alt="roses2" />
