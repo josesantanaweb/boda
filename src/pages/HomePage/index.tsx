@@ -10,6 +10,7 @@ import after from "../../assets/images/after.png"
 import traje from "../../assets/images/traje.png"
 import bebe from "../../assets/images/bebe.png"
 import whatsapp from "../../assets/images/whatsapp.png";
+import cajita from "../../assets/images/cajita.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
@@ -18,6 +19,7 @@ import roses from "../../assets/images/roses.png";
 import roses2 from "../../assets/images/roses-2.png";
 import roses3 from "../../assets/images/roses-3.png";
 import instagram from "../../assets/images/instagram.png";
+import nota from "../../assets/images/nota.png";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
 const HomePage = () => {
@@ -59,6 +61,15 @@ const HomePage = () => {
     if (typeof window !== "undefined") {
       window.open(
         `https://api.whatsapp.com/send/?phone=584243286365&text=Hola%20soy%20${name}%20y%20${confirmation}%20asistire%20a%20la%20boda!&type=phone_number&app_absent=0`,
+        "_blank"
+      );
+    }
+  };
+
+  const handleWhatsappVanessa2 = () => {
+    if (typeof window !== "undefined") {
+      window.open(
+        `https://api.whatsapp.com/send/?phone=584243286365&type=phone_number&app_absent=0`,
         "_blank"
       );
     }
@@ -205,11 +216,12 @@ const HomePage = () => {
       <S.Gift>
         <S.Plant9 src={roses} alt="roses" />
         <S.GiftInfo>
+          <S.OutfitImg src={cajita} alt="cajita" />
+          <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
           <S.GiftMessage>
             Su presencia es nuestro mejor regalo, pero si desean hacernos un
             obsequio ponemos a su disposición nuestras sugerencias.
           </S.GiftMessage>
-          <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
           <S.GiftButton onClick={() => setOpenModal(true)}>
             Ver Sugerencias
           </S.GiftButton>
@@ -240,6 +252,7 @@ const HomePage = () => {
       </S.Outfit2>
       <S.Social>
         <S.Plant14 src={roses} alt="roses" />
+        <S.Plant17 src={roses} alt="roses" />
         <S.SocialIcon src={instagram} alt="instagram" />
         <S.SocialHashtag>#BodaVane&Robert</S.SocialHashtag>
         <S.OutfitText>
@@ -248,6 +261,18 @@ const HomePage = () => {
           fotos con nosootros!
         </S.OutfitText>
       </S.Social>
+      <S.Music>
+        <S.Plant14 src={roses} alt="roses" />
+        <S.MusicIcon src={nota} alt="nota" />
+        <S.OutfitText style={{ marginBottom: "2rem" }}>
+          Queremos divertirnos contigo por eso queremos que nos sugieras
+          canciones que no puedan faltar en nuestra boda. Esperamos tus
+          canciones favoritas!
+        </S.OutfitText>
+        <S.GiftButton onClick={handleWhatsappVanessa2}>
+          Sugerir Canciones
+        </S.GiftButton>
+      </S.Music>
       <S.Form>
         <S.Plant10 src={roses} alt="roses" />
         <S.FormRose src={roses2} alt="roses2" />

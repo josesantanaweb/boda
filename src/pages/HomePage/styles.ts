@@ -456,7 +456,7 @@ export const GiftInfo = styled.div`
 
 export const GiftTitle = styled.h4`
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-family: "Custom";
   color: #797777;
   text-align: center;
@@ -814,7 +814,7 @@ export const SocialIcon = styled.img`
   margin: 0 auto 1rem;
 `;
 
-export const SocialHashtag = styled.span`
+export const SocialHashtag = styled.a`
   background-color: rgb(255, 255, 255);
   display: block;
   text-align: center;
@@ -823,4 +823,35 @@ export const SocialHashtag = styled.span`
   border: 1px solid #949292;
   padding: 10px;
   margin: 0 auto 1rem;
+  cursor: pointer;
 `;
+
+export const Music = styled.div`
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border: 1px solid #797777;
+  text-align: center;
+  max-width: 240px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  background-color: #ffffff;
+  position: relative;
+`;
+
+export const Plant17 = styled.img`
+  margin: auto;
+  position: absolute;
+  bottom: -80px;
+  right: -150px;
+  width: 50%;
+  transform: rotate(82deg);
+`;
+
+
+export const MusicIcon = styled.img`
+  width: 40px;
+  margin: 0 auto 1rem;
+`;
+
