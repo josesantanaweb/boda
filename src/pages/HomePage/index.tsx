@@ -277,7 +277,7 @@ const HomePage = () => {
           href="https://www.instagram.com/explore/tags/bodavaneyrobert/?igshid=MmU2YjMzNjRlOQ%3D%3D"
           style={{ marginTop: "1.5rem" }}
         >
-          #BodaVane&Robert
+          #BodaVaneyRobert
         </S.GiftButton>
       </S.Social>
       <S.Music>
