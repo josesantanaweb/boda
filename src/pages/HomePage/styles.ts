@@ -188,7 +188,7 @@ export const Photos = styled.div`
 `;
 
 export const Photo = styled.img`
-  height: 500px;
+  height: 600px;
   width: 100%;
 `;
 
