@@ -88,6 +88,14 @@ const HomePage = () => {
     }
   };
 
+  const handleDownload = () => {
+    const URL = "/invitation.png";
+    var link = document.createElement("a");
+    link.download = "invitation.png";
+    link.href = URL;
+    link.click();
+  };
+
   return (
     <S.Home>
       <S.Plant src={roses} alt="roses" />
@@ -321,6 +329,12 @@ const HomePage = () => {
         <S.OutfitText style={{ fontSize: 30, marginTop: 20 }}>
           ¡Te esperamos !
         </S.OutfitText>
+        <S.InformationButton
+          style={{ margin: '2rem auto' }}
+          onClick={handleDownload}
+        >
+          Descargar Invitación
+        </S.InformationButton>
       </S.Form>
     </S.Home>
   );
