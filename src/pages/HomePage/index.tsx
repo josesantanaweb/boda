@@ -144,10 +144,10 @@ const HomePage = () => {
         </S.DaysLeftRow>
       </S.DaysLeft>
       <Slider {...settings}>
-        <S.Photo src={photo1} alt="photo" />
+        <S.Photo src={photo1} alt="photo" style={{ height: 500 }} />
         <S.Photo src={photo2} alt="photo" />
         <S.Photo src={photo3} alt="photo" />
-        <S.Photo src={photo4} alt="photo" />
+        <S.Photo src={photo4} alt="photo" style={{ height: 500 }} />
       </Slider>
       <S.Information>
         <S.Plant5 src={roses} alt="roses" />
