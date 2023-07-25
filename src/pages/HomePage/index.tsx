@@ -274,7 +274,7 @@ const HomePage = () => {
           fotos con nosotros!
         </S.OutfitText>
         <S.GiftButton
-          onClick={handleWhatsappVanessa2}
+          href="https://www.instagram.com/explore/tags/bodavaneyrobert/?igshid=MmU2YjMzNjRlOQ%3D%3D"
           style={{ marginTop: "1.5rem" }}
         >
           #BodaVane&Robert
