@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import * as S from "./styles";
-import photo1 from "../../assets/images/photo1.png"
-import photo2 from "../../assets/images/photo2.png"
-import photo3 from "../../assets/images/photo3.png"
-import photo4 from "../../assets/images/photo4.png"
+import "../../assets/css/slick.css";
+import "../../assets/css/slick-theme.css";
+import Slider from "react-slick";
+import photo1 from "../../assets/images/01.jpg"
+import photo2 from "../../assets/images/02.jpg";
+import photo3 from "../../assets/images/03.jpg";
+import photo4 from "../../assets/images/04.jpg";
 import users from "../../assets/images/users.png"
 import love from "../../assets/images/love.png"
 import after from "../../assets/images/after.png"
@@ -30,6 +33,14 @@ const HomePage = () => {
   const [name, setName] = useState('Desconocido');
   const [confirmation, setConfirmation] = useState('si');
   const [openModal, setOpenModal] = useState(false);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   const deadline = "September, 02, 2023";
 
@@ -130,11 +141,12 @@ const HomePage = () => {
           <S.DaysNumber>Seg</S.DaysNumber>
         </S.DaysLeftRow>
       </S.DaysLeft>
-      <S.Photos>
-        <S.Photo src={photo3} alt="photo" />
+      <Slider {...settings}>
+        <S.Photo src={photo1} alt="photo" />
         <S.Photo src={photo2} alt="photo" />
+        <S.Photo src={photo3} alt="photo" />
         <S.Photo src={photo4} alt="photo" />
-      </S.Photos>
+      </Slider>
       <S.Information>
         <S.Plant5 src={roses} alt="roses" />
         <S.InformationSalon>Salon Salsa & Cebada</S.InformationSalon>
@@ -259,7 +271,10 @@ const HomePage = () => {
           foto que recuerde momentos que hemos pasado junto a ti comparte tu
           fotos con nosotros!
         </S.OutfitText>
-        <S.GiftButton onClick={handleWhatsappVanessa2} style={{marginTop: '1.5rem'}}>
+        <S.GiftButton
+          onClick={handleWhatsappVanessa2}
+          style={{ marginTop: "1.5rem" }}
+        >
           #BodaVane&Robert
         </S.GiftButton>
       </S.Social>
