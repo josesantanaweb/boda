@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import * as S from "./styles";
 import "../../assets/css/slick.css";
 import "../../assets/css/slick-theme.css";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import photo1 from "../../assets/images/01.jpg"
 import photo2 from "../../assets/images/02.jpg";
@@ -229,8 +230,8 @@ const Invitados2 = () => {
           <S.GuestsRow>
             <p>1</p>
             <p>2</p>
-            <p>3</p>
-            <p>4</p>
+            <Link to="/3-invitados">3</Link>
+            <Link to="/4-invitados">4</Link>
           </S.GuestsRow>
         </S.GuestsItems>
         <S.GuestsTitle>Lugares en su Honor</S.GuestsTitle>

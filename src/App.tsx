@@ -13,6 +13,7 @@ const App = () =>  {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Invitados2 />} />
           <Route path="/2-invitados" element={<Invitados2 />} />
           <Route path="/3-invitados" element={<Invitados3 />} />
           <Route path="/4-invitados" element={<Invitados4 />} />
