@@ -540,9 +540,9 @@ export const GuestsItems = styled.div`
 
 export const GuestsRow = styled.div`
   display: flex;
-  align-items: center;
+  align-items: c1nter;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 1rem;
   width: 220px;
   margin: 0 auto 1rem;
   span {

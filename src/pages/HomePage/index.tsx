@@ -221,14 +221,22 @@ const HomePage = () => {
         <S.GuestsTitle>Hemos Reservado</S.GuestsTitle>
         <S.GuestsItems>
           <S.GuestsRow>
+            <span></span>
             <span style={{ backgroundColor: "#e9babc" }}></span>
             <span></span>
             <span></span>
           </S.GuestsRow>
           <S.GuestsRow>
+            <p>1</p>
             <p>2</p>
             <p>3</p>
             <p>4</p>
+          </S.GuestsRow>
+          <S.GuestsRow>
+            <p></p>
+            <p style={{ margin: 0 }}>Lugares</p>
+            <p></p>
+            <p></p>
           </S.GuestsRow>
         </S.GuestsItems>
         <S.GuestsTitle>Lugar en su Honor</S.GuestsTitle>
