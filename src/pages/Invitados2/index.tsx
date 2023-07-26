@@ -230,8 +230,8 @@ const Invitados2 = () => {
           <S.GuestsRow>
             <p>1</p>
             <p>2</p>
-            <Link to="/3-invitados">3</Link>
-            <Link to="/4-invitados">4</Link>
+            <p>3</p>
+            <p>4</p>
           </S.GuestsRow>
         </S.GuestsItems>
         <S.GuestsTitle>Lugares en su Honor</S.GuestsTitle>
