@@ -232,14 +232,8 @@ const HomePage = () => {
             <p>3</p>
             <p>4</p>
           </S.GuestsRow>
-          <S.GuestsRow>
-            <p></p>
-            <p style={{ margin: 0 }}>Lugares</p>
-            <p></p>
-            <p></p>
-          </S.GuestsRow>
         </S.GuestsItems>
-        <S.GuestsTitle>Lugar en su Honor</S.GuestsTitle>
+        <S.GuestsTitle>Lugares en su Honor</S.GuestsTitle>
       </S.Guests>
       <S.Gift>
         <S.Plant9 src={roses} alt="roses" />
