@@ -3,15 +3,15 @@ import * as S from "./styles";
 import "../../assets/css/slick.css";
 import "../../assets/css/slick-theme.css";
 import Slider from "react-slick";
-import photo1 from "../../assets/images/01.jpg"
+import photo1 from "../../assets/images/01.jpg";
 import photo2 from "../../assets/images/02.jpg";
 import photo3 from "../../assets/images/03.jpg";
 import photo4 from "../../assets/images/04.jpg";
-import users from "../../assets/images/users.png"
-import love from "../../assets/images/love.png"
-import after from "../../assets/images/after.png"
-import traje from "../../assets/images/traje.png"
-import bebe from "../../assets/images/bebe.png"
+import users from "../../assets/images/users.png";
+import love from "../../assets/images/love.png";
+import after from "../../assets/images/after.png";
+import traje from "../../assets/images/traje.png";
+import bebe from "../../assets/images/bebe.png";
 import whatsapp from "../../assets/images/whatsapp.png";
 import cajita from "../../assets/images/cajita.png";
 import copas from "../../assets/images/copas.png";
@@ -25,13 +25,13 @@ import instagram from "../../assets/images/instagram.png";
 import nota from "../../assets/images/nota.png";
 import cancion from "../../assets/Caminar de Tu Mano.mp3";
 
-const HomePage = () => {
+const Invitados4 = () => {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-  const [name, setName] = useState('Desconocido');
-  const [confirmation, setConfirmation] = useState('si');
+  const [name, setName] = useState("Desconocido");
+  const [confirmation, setConfirmation] = useState("si");
   const [openModal, setOpenModal] = useState(false);
 
   const settings = {
@@ -222,9 +222,9 @@ const HomePage = () => {
         <S.GuestsItems>
           <S.GuestsRow>
             <span></span>
+            <span></span>
+            <span></span>
             <span style={{ backgroundColor: "#e9babc" }}></span>
-            <span></span>
-            <span></span>
           </S.GuestsRow>
           <S.GuestsRow>
             <p>1</p>
@@ -332,6 +332,6 @@ const HomePage = () => {
       </S.Form>
     </S.Home>
   );
-}
+};
 
-export default HomePage;
+export default Invitados4;
