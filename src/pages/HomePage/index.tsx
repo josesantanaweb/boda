@@ -224,10 +224,8 @@ const HomePage = () => {
             <span style={{ backgroundColor: "#e9babc" }}></span>
             <span></span>
             <span></span>
-            <span></span>
           </S.GuestsRow>
           <S.GuestsRow>
-            <p>1</p>
             <p>2</p>
             <p>3</p>
             <p>4</p>
@@ -278,7 +276,7 @@ const HomePage = () => {
         <S.SocialIcon src={instagram} alt="instagram" />
         <S.OutfitText>
           Ahora puedes entrar a Instagram con nuestro hashtag y dejarnos una
-          foto que recuerde momentos que hemos pasado junto a ti comparte tu
+          foto que recuerde momentos que hemos pasado junto a ti comparte tus
           fotos con nosotros!
         </S.OutfitText>
         <S.GiftButton
@@ -329,12 +327,6 @@ const HomePage = () => {
         <S.OutfitText style={{ fontSize: 30, marginTop: 20 }}>
           ¡Te esperamos !
         </S.OutfitText>
-        <S.InformationButton
-          style={{ margin: '2rem auto' }}
-          onClick={handleDownload}
-        >
-          Descargar Invitación
-        </S.InformationButton>
       </S.Form>
     </S.Home>
   );

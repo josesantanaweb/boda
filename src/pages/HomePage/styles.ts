@@ -542,7 +542,7 @@ export const GuestsRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 3rem;
   width: 220px;
   margin: 0 auto 1rem;
   span {
