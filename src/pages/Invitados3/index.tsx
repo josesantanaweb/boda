@@ -187,7 +187,7 @@ const Invitados3 = () => {
         <S.TimelineItems>
           <S.TimelineItem>
             <S.TimelineTitle>Eclesiástica</S.TimelineTitle>
-            <S.TimelineHour>7:00pm</S.TimelineHour>
+            <S.TimelineHour>6:30pm</S.TimelineHour>
           </S.TimelineItem>
           <S.TimelineItem>
             <S.TimelineTitle>Recepción</S.TimelineTitle>
@@ -237,12 +237,10 @@ const Invitados3 = () => {
           <S.GiftMessage>
             Calle 91-A, Urbanización Michelena, Valencia Edo. Carabobo
           </S.GiftMessage>
-          <S.GiftMessage>
-            6:00 PM
-          </S.GiftMessage>
+          <S.GiftMessage>6:00 PM</S.GiftMessage>
           <S.GiftButton
             target="_blank"
-            href="https://www.google.com/maps/place/10%C2%B015'08.2%22N+67%C2%B056'34.5%22W/@10.2522764,-67.9450979,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.2522764!4d-67.9429092?hl=es&entry=ttu"
+            href="https://www.google.com/maps/place/Calle+91A,+Valencia+2001,+Carabobo,+Venezuela/@10.1758805,-67.9934917,17z/data=!3m1!4b1!4m6!3m5!1s0x8e8067a2182c8f33:0xe2c1fbe9a3fa8dff!8m2!3d10.1758805!4d-67.9934917!16s%2Fg%2F1tkbz894?entry=ttu"
           >
             Ver Mapa
           </S.GiftButton>
