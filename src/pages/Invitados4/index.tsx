@@ -15,6 +15,7 @@ import bebe from "../../assets/images/bebe.png";
 import whatsapp from "../../assets/images/whatsapp.png";
 import cajita from "../../assets/images/cajita.png";
 import iglesia from "../../assets/images/iglesia.png";
+import salon from "../../assets/images/salon.png";
 import copas from "../../assets/images/copas.png";
 import fiesta from "../../assets/images/fiesta.png";
 import card from "../../assets/images/card.png";
@@ -159,19 +160,6 @@ const Invitados4 = () => {
         <S.Photo src={photo3} alt="photo" />
         <S.Photo src={photo4} alt="photo" />
       </Slider>
-      <S.Information>
-        <S.Plant5 src={roses} alt="roses" />
-        <S.InformationSalon>Salon Salsa & Cebada</S.InformationSalon>
-        <S.InformationSite>
-          Las Morochas 1 calle los jazmines # 20 -10 C, San Diego
-        </S.InformationSite>
-        <S.InformationButton
-          target="_blank"
-          href="https://www.google.com/maps/place/10%C2%B015'08.2%22N+67%C2%B056'34.5%22W/@10.2522764,-67.9450979,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.2522764!4d-67.9429092?hl=es&entry=ttu"
-        >
-          Ver Mapa
-        </S.InformationButton>
-      </S.Information>
       <S.Timeline>
         <S.TimelineIcons>
           <S.TimelineCircle>
@@ -242,6 +230,19 @@ const Invitados4 = () => {
           <S.GiftButton
             target="_blank"
             href="https://www.google.com/maps/place/Calle+91A,+Valencia+2001,+Carabobo,+Venezuela/@10.1758805,-67.9934917,17z/data=!3m1!4b1!4m6!3m5!1s0x8e8067a2182c8f33:0xe2c1fbe9a3fa8dff!8m2!3d10.1758805!4d-67.9934917!16s%2Fg%2F1tkbz894?entry=ttu"
+          >
+            Ver Mapa
+          </S.GiftButton>
+        </S.GiftInfo>
+        <S.GiftInfo>
+          <S.OutfitImg src={salon} alt="cajita" />
+          <S.GiftTitle>Salon Salsa & Cebada</S.GiftTitle>
+          <S.GiftMessage>
+            Las Morochas 1 calle los jazmines # 20 -10 C, San Diego
+          </S.GiftMessage>
+          <S.GiftButton
+            target="_blank"
+            href="https://www.google.com/maps/place/10%C2%B015'08.2%22N+67%C2%B056'34.5%22W/@10.2522764,-67.9450979,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.2522764!4d-67.9429092?hl=es&entry=ttu"
           >
             Ver Mapa
           </S.GiftButton>
