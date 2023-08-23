@@ -226,7 +226,7 @@ const Invitados2 = () => {
           <S.GiftMessage>
             Calle 91-A, Urbanización Michelena, Valencia Edo. Carabobo
           </S.GiftMessage>
-          <S.GiftMessage>6:00 PM</S.GiftMessage>
+          <S.GiftMessage>6:30 PM</S.GiftMessage>
           <S.GiftButton
             target="_blank"
             href="https://www.google.com/maps/place/Calle+91A,+Valencia+2001,+Carabobo,+Venezuela/@10.1758805,-67.9934917,17z/data=!3m1!4b1!4m6!3m5!1s0x8e8067a2182c8f33:0xe2c1fbe9a3fa8dff!8m2!3d10.1758805!4d-67.9934917!16s%2Fg%2F1tkbz894?entry=ttu"
@@ -235,6 +235,8 @@ const Invitados2 = () => {
           </S.GiftButton>
         </S.GiftInfo>
         <S.GiftInfo>
+          <S.Plant12 src={roses} alt="roses" />
+          <S.Plant13 src={roses} alt="roses" />
           <S.OutfitImg src={salon} alt="cajita" />
           <S.GiftTitle>Salon Salsa & Cebada</S.GiftTitle>
           <S.GiftMessage>
@@ -248,6 +250,7 @@ const Invitados2 = () => {
           </S.GiftButton>
         </S.GiftInfo>
         <S.GiftInfo>
+          <S.Plant13 src={roses} alt="roses" />
           <S.OutfitImg src={cajita} alt="cajita" />
           <S.GiftTitle>Mesa de Regalos</S.GiftTitle>
           <S.GiftMessage>

@@ -452,6 +452,7 @@ export const GiftInfo = styled.div`
   margin: 2rem auto 0;
   padding: 2rem;
   background-color: #ffffff;
+  position: relative;
 `;
 
 export const GiftTitle = styled.h4`
